@@ -14,7 +14,7 @@
 <body class="d-flex flex-column min-vh-100">
     <!--Navbar-->
     <nav id="navbar" class="navbar pe-4 ps-1">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="home.html">
         <img src="images/transparentLibCons2.png" width="228" height="149" alt="Lib Cons Logo">
           <div class="d-inline-block align-middle">
             <h1 id="sitetitle">Liber Consolationis et Consilii</h1>
@@ -30,24 +30,46 @@
           <a class="dropdown-item" href="home.html">Home</a>
           <a class="dropdown-item" href="directory.html">Text</a>
           <a class="dropdown-item" href="data.html">Data</a>
-          <a class="dropdown-item" href="home.html">History</a>
+          <a class="dropdown-item" href="history.html">History</a>
           <a class="dropdown-item" href="about.html">About</a>
         </div>
       </div>
 	</nav>
 	<!--Text-->
-	<section class="container pt-3 ps-3">
+	<section class="container py-3 ps-3">
     <div class="row">
       <div class="col">
         <h2>Prologue</h2>
       </div>
     </div>
-		<div class="row">
-			<div class="col">
-				<p><h3 class="lang">Latin</h3></p>
+    <div class="row sticky-top pt-5" id="lang">
+      <!--Latin Button-->
+			<div class="col-1 offset-1">
+				<button class="langBtn rounded-top">Latin</button>
       </div>
-      <div class="col">
-        <p><h3 class="lang">English</h3></p>
+      <!--Back Button-->
+      <div class="col-1">
+        <button class="ctrBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+          </svg>
+        </button>
+      </div>
+      <!--Chapters Button-->
+      <div class="col-1">
+        <button class="langBtn">Chapters</button>
+      </div>
+      <!--Next Button-->
+      <div class="col-1">
+        <button class="ctrBtn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </button>
+      </div>
+      <!--English Button-->
+      <div class="col-1">
+        <button class="langBtn rounded-top">English</button>
       </div>
     </div>
     <div class="row">
@@ -59,15 +81,15 @@
       </div>
     </div>
     <div class="row">
-      <div class="col" class="overflow-auto">
-        <p>Quoniam  multi  sunt,  qui  in  adversitatibus  et  tribulationibus  taliter  affliguntur  et deprimuntur,  quod,  cum  in  se  propter  animi  perturbationem  nec  consilium  nec consolationem habeant neque ab aliis expectent, ita contristantur, ut de malo in pejus cadant:  ideo  tibi,  filio  meo  Johanni,  qui  in  arte  cyrurgiaemedicando  te  exerces,  et plerumque tales invenis, quaedam tibi pro modulo meaescientiaescribere curavi, per quae, dante Domino, poteris praedictis non solum incorporibus medelam tribuere, sed etiam circa praedicta consilium et consolationem impertiri atque juvamen. Legas itaque similitudinem infra scriptam, et auctoritates in hoc libro notatas attente ac studiosissime perlegas, et ita, divina favente gratia, poteris tibi et aliis proficiendo ad praedicta leviter pervenire. Ecce similitudo.</p>
-        <p>Quoniam  multi  sunt,  qui  in  adversitatibus  et  tribulationibus  taliter  affliguntur  et deprimuntur,  quod,  cum  in  se  propter  animi  perturbationem  nec  consilium  nec consolationem habeant neque ab aliis expectent, ita contristantur, ut de malo in pejus cadant:  ideo  tibi,  filio  meo  Johanni,  qui  in  arte  cyrurgiaemedicando  te  exerces,  et plerumque tales invenis, quaedam tibi pro modulo meaescientiaescribere curavi, per quae, dante Domino, poteris praedictis non solum incorporibus medelam tribuere, sed etiam circa praedicta consilium et consolationem impertiri atque juvamen. Legas itaque similitudinem infra scriptam, et auctoritates in hoc libro notatas attente ac studiosissime perlegas, et ita, divina favente gratia, poteris tibi et aliis proficiendo ad praedicta leviter pervenire. Ecce similitudo.</p>
+      <div class="col p-4">
         <p>Quoniam  multi  sunt,  qui  in  adversitatibus  et  tribulationibus  taliter  affliguntur  et deprimuntur,  quod,  cum  in  se  propter  animi  perturbationem  nec  consilium  nec consolationem habeant neque ab aliis expectent, ita contristantur, ut de malo in pejus cadant:  ideo  tibi,  filio  meo  Johanni,  qui  in  arte  cyrurgiaemedicando  te  exerces,  et plerumque tales invenis, quaedam tibi pro modulo meaescientiaescribere curavi, per quae, dante Domino, poteris praedictis non solum incorporibus medelam tribuere, sed etiam circa praedicta consilium et consolationem impertiri atque juvamen. Legas itaque similitudinem infra scriptam, et auctoritates in hoc libro notatas attente ac studiosissime perlegas, et ita, divina favente gratia, poteris tibi et aliis proficiendo ad praedicta leviter pervenire. Ecce similitudo.</p>
       </div>
-      <div class="col" class="overflow-auto">
-        <p>Since there are many who are so afflicted by adversities and weighed down in tribulations, and since they have neither counsel nor consolation on account of their disturbed souls—nor do they expect counsel or consolation from others—they become so distraught that they fall into worse, often evil, circumstances. For this reason, I took care  to write down certain teachings for you, Johannus, my son, who heals with the art of surgery. God granting, from the little measure of my knowledge, you will not only be able to grant health to physical bodies, but you will even be able to bless others with counsel, consolation, and aid. Therefore, may you read the following tale zealously and ponder each of the written authorities diligently, and so, with divine grace bestowing, you will easily lead yourself and others in practicing good counsel. Here begins the tale.</p>
-        <p>Since there are many who are so afflicted by adversities and weighed down in tribulations, and since they have neither counsel nor consolation on account of their disturbed souls—nor do they expect counsel or consolation from others—they become so distraught that they fall into worse, often evil, circumstances. For this reason, I took care  to write down certain teachings for you, Johannus, my son, who heals with the art of surgery. God granting, from the little measure of my knowledge, you will not only be able to grant health to physical bodies, but you will even be able to bless others with counsel, consolation, and aid. Therefore, may you read the following tale zealously and ponder each of the written authorities diligently, and so, with divine grace bestowing, you will easily lead yourself and others in practicing good counsel. Here begins the tale.</p>
-        <p>Since there are many who are so afflicted by adversities and weighed down in tribulations, and since they have neither counsel nor consolation on account of their disturbed souls—nor do they expect counsel or consolation from others—they become so distraught that they fall into worse, often evil, circumstances. For this reason, I took care  to write down certain teachings for you, Johannus, my son, who heals with the art of surgery. God granting, from the little measure of my knowledge, you will not only be able to grant health to physical bodies, but you will even be able to bless others with counsel, consolation, and aid. Therefore, may you read the following tale zealously and ponder each of the written authorities diligently, and so, with divine grace bestowing, you will easily lead yourself and others in practicing good counsel. Here begins the tale.</p>
+      <div class="col p-4">
+        <p>Since there are many who are so afflicted by adversities and weighed down in tribulations, and since they have neither counsel nor consolation on account of their disturbed souls—nor do they expect counsel or consolation from others—they become so distraught that they fall into worse, often evil, circumstances. For this reason, I took care  to write down certain teachings for you, Johannus, my son, who heals with the art of surgery. God granting, from the little measure of my knowledge, you will not only be able to grant health to physical bodies, but you will even be able to bless others with counsel, consolation, and aid. Therefore, may you read the following tale zealously and ponder each of the written authorities diligently, and so, with divine grace bestowing, you will easily lead yourself and others in practicing good counsel. Here begins the tale.
+          <a href="#test" class="note">
+            <span style="color:#314175">&#10086;</span>
+          </a>
+        </p>
       </div>
     </div>
 	</section>
