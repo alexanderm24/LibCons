@@ -35,34 +35,69 @@
         </div>
       </div>
     </nav>
-    <section class="section p-4">
-        <h1>Data</h1>
-        <p>Within the TEI, we have included the following citation tags:</p>
-        <ul>
-          <li>classical</li>
-          <li>biblicalOt (biblical, Old Testament)</li>
-          <li>biblicalNt (biblical, New Testament)</li>
-          <li>churchFa (Father of the Church)</li>
-          <li>lawMed (medieval law text)</li>
-          <li>scMed (medieval school text); designated for texts that were commonly used in medieval schooling and resemble classical works, such as <em>Pamphilus de Amore.</em></li>
-          <li>contMed (medieval sources that are not designated to lawMed or scMed)</li>
-        </ul>
-        <p>These categories help us better understand the <em>auctoritates</em> (authorities) that Albertano valued.</p>
-        <h1>At a Glance</h1><!--Pie Chart-->
-        <div class="flourish-embed flourish-chart" data-src="visualisation/11831120"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-        <h1>Distribution of Citation Types</h1><!--Bars-->
-        <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11732655"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-        <h1>“Albertano's Barcode”</h1><!--Barcode-->
-        <p>This wild metric created by Margaret Alexander shows the distribution of citation types (classical, biblical, medieval, Church Father, and unknown origin) in the order that they appear in the text (beginning to end). There are a total of 557 vertical stripes for each external referrence.</p>
-        <img src="images/UpdatedAlbertanoBar.jpg" class="img-fluid">
+    <section class="container p-4">
+      <div class="row">
+        <div class="col">
+          <h1>Data Analysis</h1>
+          <p>Within the TEI, we have included the following citation tags:</p>
+          <ul>
+            <li>classical</li>
+            <li>biblicalOt (biblical, Old Testament)</li>
+            <li>biblicalNt (biblical, New Testament)</li>
+            <li>churchFa (Father of the Church)</li>
+            <li>lawMed (medieval law text)</li>
+            <li>scMed (medieval school text); designated for texts that were commonly used in medieval schooling and resemble classical works, such as <em>Pamphilus de Amore.</em></li>
+            <li>contMed (contemporary medieval sources that are not designated to lawMed or scMed)</li>
+          </ul>
+          <p>These categories help us understand the <em>auctoritates</em> (authorities) that Albertano valued. Originally, medieval manuscripts would not have included quotation marks indicating direct quotes. 
+            We are currently comparing Albertano's Latin to the Latin of the cited authorities. In many instances, the quote is direct and usually introduced by <em>dicit</em>; otherwise, he closely paraphrases the original. 
+          </p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col">
+          <h2>Citation Tag Percentages</h2><!--Pie Chart-->
+          <div class="flourish-embed flourish-chart" data-src="visualisation/11831120"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col">
+          <h2>Distribution of Citation Types</h2><!--Bars-->
+          <p>The interactive bars below show the distribution of citation tags. Click each to see the sources organized into further subcategories and by author.</p>
+          <div class="flourish-embed flourish-hierarchy" data-src="visualisation/11732655"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+        </div>
+      </div>
+      <div class="row mt-4 mb-3">
+        <div class="col">
+          <h2>“Albertano's Barcode”</h2><!--Barcode-->
+          <p>This metric shows the distribution of citation types (classical, biblical, medieval, Church Father, and unknown origin) in the order that they appear in the text (beginning to end). There are a total of 557 vertical stripes for each external referrence. 
+            While unconventional, this metric shows that Albertano was relatively consistent with incorporating different sources.</p>
+          <img src="images/UpdatedAlbertanoBar.jpg">
+        </div>
+      </div>
+        <div class="row mt-5">
+          <div class="col">
+            <h2>Prudentia's Voice: A Mere Patchwork?</h2>
+            <p>The narrative notably conisists of less action and more dialogue&mdash; dialogue which itself is an amalgamation of Albertano's most valued sources. Thor Sundby makes the case that “the Book of Consolation, though largely woven from the sayings of different authors by no means deserves the name of a mere patchwork.” 
+              He proposes that Prudentia, the heroine of the tale, embodies wisdom. But is true wisdom rote memorization of sayings that aren't her own?
+            </p>
+            <p>We are in the process of finding out what percentage of Prudentia's words are borrowed, and what sources she cites the most.</p>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="images/prudentiaDixit.png" style="height:25rem">
+              <figcaption class="caption">Portions of Prudentia's dialogue are highlighted in different colors according to citation tags used throughout this page: Old Testament (dark green), the New Testament (light green), and classical sources (blue). Here, the quotes roughly make up 46% of her speech.</figcaption>
+            </figure>
+          </div>
+        </div>
     </section>
         
 
     
-        <!--JS-->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
   <!--Footer-->
   <footer class="pt-5 mt-auto">

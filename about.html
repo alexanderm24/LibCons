@@ -35,37 +35,119 @@
           </div>
         </div>
     </nav>
-    <section class="container p-3">
+    <section class="container p-4">
         <p>This page is about the process of cultivating this site. To learn about the historical context of <em>Liber Consolationis et Consilii</em> read <a href="history.html">here.</a></p>
         <h1>About</h1>
-        <p>The Liber Consolationis Digital Archive is an ongoing research project by undergraduate students of Washington and Lee University 
-            under the direction of Professor Melissa Vise (Medieval History) and Professor Mackenzie Brooks (Digital Humanities). 
-            The project welcomes a breadth of interests including (but not limited to) medieval history and literature, classics, digital humanities, data science and coding.
-        <p>Current Undergraduate Editor and Translator: Margaret Alexander, Class of 2024</p>
-        <p>Logo and initial coding by Nayongi Borthwick, Class of 2023</p>
+        <div class="row">
+            <div class="col-8"> 
+                <p>The Liber Consolationis Digital Archive is an ongoing research project by undergraduate students of Washington and Lee University 
+                under the direction of Melissa Vise, Assistant Professor of History, and Mackenzie Brooks, Associate Professor and Digital Humanities Librarian. 
+                The project welcomes a breadth of interests including (but not limited to) medieval history and literature, classics, digital humanities, data science and coding.
+            </div>
+            <!--credits card-->
+            <div class="col-4">
+                <div class="card bg-light mb-3" style="max-width: 21rem;">
+                <div class="card-header">Student Contributors</div>
+                <div class="card-body">
+                <p class="card-text">Current Undergraduate Editor and Translator: Margaret Alexander, Class of 2024</p>
+                <p class="card-text">Logo, web design and initial coding by Nayongi Borthwick, Class of 2023</p>
+            </div>
+        </div>
+
+            </div>
+        </div>
+    
+        
+
         <h2>Where does the text come from?</h2>
         <p>While <em>Liber Consolationis et Consilii</em> was originally published in 1246, the Latin text used on this site is from Thor Sundby's 1873 critical print edition—the product of 15 consulted manuscripts. 
             Most remarkably, Sundby tracked down and verified over 500 external referrences that would not have been present in the original manuscripts.
             Sundby's edition has since been published online by <a href="https://www.google.com/books/edition/Albertani_Brixiensis_Liber_consolationis/OFgJAAAAQAAJ?hl=en&gbpv=0" target="_blank">Google Books</a>.
         </p>
-        <p>In 2000, scholar Angus Graham digitally transcribed Sundby's text, adding and revising some of Sundby's citations. We hope to have fairly credited Sundby and Graham, and have included them as editors within the TEI responsibility statement.</p>
+        <p>In 2000, scholar Angus Graham digitally transcribed Sundby's text, adding to and revising some of Sundby's citations. We hope to have fairly credited Sundby and Graham, and have included them as editors within the TEI responsibility statement.</p>
 
-        <h1>What is TEI?</h1>
+        <h2>What is TEI?</h2>
         <p>TEI (Text Encoding Initiative) is a consortium which collectively develops and maintains a standard for the representation of texts in digital form. Using xml, we can store more information about the text (metainformation) relating to its structural qualities rather than its physical appearance.
             Read more about TEI <a href="https://tei-c.org/" target="_blank">here.</a>
-        </p>
-
-        <h1>Resolving discrepancies between Graham's transcription and Sundby's text</h1>
-           
-        <h1>What modifications have been made to Sundby's text?</h1>
+        </p>  
+        <h2>What modifications have been made to Sundby's text?</h2>
             <ul>
-
                 <li>Line numbers no longer exist.</li>
-                <li>Paragraph markings have been added.</li>
-                <li>Dipthongs have been removed. For example, <em>cœpi</em> now reads as <em></em>coepi</em>.</li>
+                <li>Each paragraph in the text is numbered according to its respective chapter with the dot as a separation marker. For example, 1.3 identifies the third paragraph of the first chapter.</li>
+                <li>Dipthongs have been removed. For example, <em>cœpi</em> now reads as <em>coepi</em>.</li>
             </ul>
 
-        <h1>Questions?</h1>
+        <h2>What English translations were consulted in the translation process?</h2>
+        <p>For biblical sources, we initially consulted the New Revised Standard Version Updated Edition (NRSVUE), but ran into trouble when verses from Ecclesiasticus (The Book of Sirach) cited by Albertano were nonexistent. 
+            We switched to the Douay-Rheims Catholic Bible for consistency. However, we are in the process of creating a feature with comparative NRSV referrences.</p>
+        <p>For classical sources, we consulted <a href="https://www.loebclassics.com/" target="_blank">Loeb Classical Library.</a></p>
+        <h2>Current Source List</h2>
+            <ul>
+                <li>Actus Silvestri.</li>
+                <li>Albertano, <em>De Amore</em>.</li>
+                <li>Alcuin, <em>De Rhetorica</em>.</li>
+                <li>Andreas Capellanus, <em>De Amore</em>.</li>
+                <li>Authenticae, <em>Corpus Juris Civilis</em>.</li>
+                <li>Baldo, <em>Novus Esopus</em>.</li>
+                <li>Bernard of Clairvaux, <em>Carmen Paraeneticum ad Rainaldum</em>.</li>
+                <li>Boethius, <em>De Consolatione</em>.</li>
+                <li>Boncompagno da Segna, <em>Rhetorica Novissima</em>.</li>
+                <li>Bracton.</li>
+                <li>Cassiodorus, <em>Variae</em>.</li>
+                <li>Cato, <em>Distichs</em>.</li>
+                <li>Cato, <em>Monostichs</em>.</li>
+                <li>Cicero, <em>De Amicitia</em>.</li>
+                <li>Cicero, <em>De Inventione</em>.</li>
+                <li>Cicero, <em>De Officiis</em>.</li>
+                <li>Cicero, <em>De Senectute</em>.</li>
+                <li>Cicero, <em>In Verrem</em>.</li>
+                <li>Cicero, <em>Tusculan Disputations</em>.</li>
+                <li>Codex.</li>
+                <li>Curtius Rufus, <em>Historia Alexandrum Magnum</em>.</li>
+                <li><em>Digest</em>.</li>
+                <li>Faustino of Arevalo, <em>Isidoriana</em>.</li>
+                <li>Fulgentius, <em>Mitologiarum.</em></li>
+                <li>Godfrey of Winchester, <em>Epigrammata</em>.</li>
+                <li>Gratian, <em>Decretals</em>.</li>
+                <li>Gregory IX, <em>Decretals</em>.</li>
+                <li>Horace, <em>Epistulae ad Pisones</em>.</li>
+                <li>Hugh of Saint Victor, <em>Didascalicon</em>.</li>
+                <li>Innocent III, <em>De Contemptu Mundi</em>.</li>
+                <li>Innocent IV, <em>Apparatus in quinque libros decretalium</em>.</li>
+                <li>Junstinian, <em>Institutes</em>.</li>
+                <li>Lucan, <em>Pharsalia</em>.</li>
+                <li>Marbodo of Rennes, <em>Carmina Varia</em>.</li>
+                <li>Martin of Braga, <em>Formula Honestae Vitae</em>.</li>
+                <li>Ovid, <em>Amores</em>.</li>
+                <li>Ovid, <em>Heroïdes</em>.</li>
+                <li>Ovid, <em>Remedia Amoris</em>.</li>
+                <li><em>Pamphilus de Amore</em>.</li>
+                <li>Peter Alfonsi, <em>Dialogus</em>.</li>
+                <li>Peter Alfonsi, <em>Disciplina Clericalis</em>.</li>
+                <li>Prosper of Aquitane, <em>Sententiae</em>.</li>
+                <li>Prudentius, <em>Psychomachia</em>.</li>
+                <li>Pseudo-Bede, <em>Proverbia</em>.</li>
+                <li>Pseudo-Caecilius Balbus, <em>De Nugis</em>.</li>
+                <li>Pseudo-Martin of Braga, <em>De Moribus</em>.</li>
+                <li>Pseudo-Seneca, <em>De Moribus</em>.</li>
+                <li>Pseudo-Seneca, <em>Proverbia</em>.</li>
+                <li>[Pseudo-] William of Conches, <em>Moralium Dogma Philosophorum</em>.</li>
+                <li>Publilius Syrus, <em>Sententiae</em>.</li>
+                <li>Sallust, <em>Bellum Catiliniarum</em>.</li>
+                <li>Sallust, <em>Bellum Jugurthinum</em>.</li>
+                <li>Seneca Maior, <em>Controversiis</em>.</li>
+                <li>Seneca, <em>Ad Lucilium Epistulae Morales</em>.</li>
+                <li>Seneca, <em>De Beneficiis</em>.</li>
+                <li>Seneca, <em>De Clementia</em>.</li>
+                <li>Seneca, <em>De Ira</em>.</li>
+                <li>Seneca, <em>Epistula ad Alexandrum Magnum</em>.</li>
+                <li>Vegetius, <em>Epitoma Rei Militaris</em>.</li>
+                <li>Walter of England, <em>Aesop</em>.</li>
+                <li>Walther, <em>Proverbia</em>.</li>
+            </ul>
+
+
+        <h2>Questions?</h2>
         <p>If you would like to request more information or report errors, please contact Margaret Alexander by emailing alexanderm24@mail.wlu.edu</p>
     </section>
 
