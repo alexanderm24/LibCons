@@ -2,57 +2,33 @@
 body {
   background-color: white;
   font-family: 'junicode-expanded';
+  font-size: 1.125rem;
 }
 
-
-#navbar {
-  background-color: #FCF5E5;
-
-}
-
+/*caption formatting*/
 .caption {
   color:black;
   text-decoration: none;
-  font-size: 0.714rem;
+  font-size: 0.8rem;
 }
 
 a:link{
   text-decoration: none;
 }
 
-/*search*/
+/*Navbar*/
+#navbar {
+  background-color: #FCF5E5;
 
-/*fleuron note*/
-.note {
-  size:1rem;
 }
 
-.note:hover {
-  transition: border-color 1s, box-shadow 0.5s;
-}
+/*search bar TBD*/
 
 /*sticky language header*/
 #lang {
   background-color: white;
   border-bottom: solid #ccc;
   position: sticky;
-}
-
-.langBtn {
-  text-align: center;
-  background-color: #ccc;
-  width: 8rem;
-  height: 2.5em;
-  border: none;
-}
-
-.ctrBtn {
-  text-align: center;
-  background-color: #ccc;
-  width: 3rem;
-  height: 2.5em;
-  border: none;
-
 }
 
 /*blockquote*/
@@ -63,9 +39,16 @@ blockquote {
   line-height: normal;
 }
 
+/*fleuron note*/
+.note {
+  size:1rem;
+}
 
-/*buttons*/
-/*menu*/
+.note:hover {
+  transition: border-color 1s, box-shadow 0.5s;
+}
+
+/*menu button*/
 #menubutton {
   background-color: #914631;
   color: white;
@@ -73,7 +56,7 @@ blockquote {
   height: 3.25rem;
 }
 
-/*text buttons*/
+/*directory buttons*/
 .button {
   background-color: #AA5F4B;
   border: none;
@@ -130,6 +113,29 @@ blockquote {
   color: white;
 }
 
+/*language buttons*/
+.langBtn {
+  text-align: center;
+  background-color: #ccc;
+  width: 8rem;
+  height: 2.5em;
+  border: none;
+}
+
+/*control buttons (back and next)*/
+.ctrBtn {
+  text-align: center;
+  background-color: #ccc;
+  width: 3rem;
+  height: 2.5em;
+  border: none;
+}
+
+/*credits card*/
+#credits {
+  font-size: 1rem;
+}
+
 /*footer*/
 footer {
   background:#314175;
@@ -138,7 +144,6 @@ footer {
   text-align: center;
   font-weight:normal;
 }
-
 
 @font-face {
   font-family:"junicode expanded";
