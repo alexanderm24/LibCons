@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/tei.css">
+
+</head>
+<body>
+  <script src="js/CETEI.js"></script>
+<script type="text/javascript">
+    let c = new CETEI();
+    let behaviors = {
+    "tei": {
+      "lb": ["<br>"],
+    "teiHeader": null,
+    }
+  };
+  c.addBehaviors(behaviors)
+  c.getHTML5('liber.xml', function(data) {
+    document.getElementsByTagName("body")[0].appendChild(data);
+  });
+
+  </script>
+</body>
+</html>

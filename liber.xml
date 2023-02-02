@@ -1,0 +1,412 @@
+<!DOCTYPE xml>
+<xml>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Liber consolationis et consilii: an electronic transcription and translation</title>
+          <author xml:id="AdB">Albertano da Brescia</author>
+          <respStmt>
+            <name xml:id="TS">Thor Sundby</name>
+            <resp>1873 editor</resp>
+          </respStmt>
+          <respStmt>
+            <name xml:id="AG">Angus Graham</name>
+            <resp>2000 editor</resp>
+          </respStmt>
+          <respStmt>
+            <name xml:id="MV">Melissa Vise</name>
+            <resp>current editor</resp>
+          </respStmt>
+          <respStmt>
+            <name xml:id="MA">Margaret Alexander</name>
+            <resp>current editor</resp>
+            <resp>current translation</resp>
+          </respStmt>
+          <principal>Melissa Vise</principal>
+        </titleStmt>
+        <extent><!--how big the document file is; optional--></extent>
+        <publicationStmt>
+          <p><!--something about public domain--></p>
+          <pubPlace></pubPlace>
+          <availability status="free">Free</availability>
+          <date when="2022-15-09" calendar="Gregorian">15 July 2022</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl><title>Liber Consolationis Et Consilii</title>
+          by <author>Albertano da Brescia</author>.
+          <pubPlace>Brescia</pubPlace>, <date when="1246">1246</date>.
+            Transcribed from the Thor Sundby 1873 critical edition</bibl>.
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <correction method="markup">
+            <p>Apparent errors in Graham transcription have been corrected using the corr element, resolving any discrepancies with Sundby transcription;
+              because high quality scans of Albertano's book have been uploaded to Google Books, we see no need to record Graham's obvious and unintentional errors.</p>
+          </correction>
+          <normalization method="silent" source="https://www.chicagomanualofstyle.org/book/ed17/part2/ch13/psec007.html">
+            <p>Punctuation has been modernized to fall within quotation marks, i.e. ," as opposed to ", at the end of a direct quote.</p>
+            <p>Dipthongs have been separated, i.e. oe instead of œ, ae instead of æ.</p>
+          </normalization>
+          <quotation marks="some">
+            <p>Double quotation marks now introduce direct speech,
+              whereas Sundby 1873 critical edition used double quotation marks when characters quoted other sources.
+              Single quotation marks now are used for imbedded quotes by nonbiblical authors.</p>
+          </quotation>
+          <hyphenation eol="none">
+            <p>End​-of​-line hyphenation from Sundby transcription has been removed.</p>
+          </hyphenation>
+          <interpretation>
+            <p>Biblical references are marked in italics.</p>
+            <p>Exegetical quotes are underlined.</p>
+            <!--Is this the appropriate place for this?-->
+          </interpretation>
+        </editorialDecl>
+        <projectDesc>
+          <p>Text encoded for making <name type="title">Liber Consolationis et Consilii</name>
+            accessible online and free to the public.</p>
+        </projectDesc>
+        <tagsDecl>
+        <!--Add tags here: biblicalOt, biblicalNt, classical, churchFa, contMed, lawMed, scMed, exeg; define #prud, #melib, #other. Add CSS blockquote rendition-->
+        </tagsDecl>
+        <refsDecl>
+          <p>Chapters in the text are numbered with the <att>n</att> attribute;
+            chapters are numbered using arabic numerals.
+            Numbering is consecutive throughout the book. For example:
+            <val>3</val> numbers the 3rd chapter of the book.</p>
+          <p>Each paragraph in the text is numbered with the <att>n</att> attribute according to
+            its respective chapter with the dot as a separation marker. For example:
+            <val>1.3</val> identifies the third paragraph of the first chapter.</p>
+          <p>Citations in the text are numbered with the <att>n</att> attribute.
+            Each number consists of of three digits; numbering is consecutive throughout
+            the text. For example:
+            <val>001</val> numbers the 1st citation.</p>
+        </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+        <creation>Originally written in <date when="1246">1246</date> in
+          <name type="city">Brescia</name>, <name type="country">Italy</name>.</creation>
+        <langUsage>
+          <language ident="en" usage="1">English</language>
+          <language ident="la" usage="1">Latin</language>
+          <language ident="it" usage="1">Italian</language>
+          <!--Professor Brooks will get back to us on language/translation. Update: We will most likely have a separate English translation TEI document. Standby-->
+        </langUsage>
+    </profileDesc>
+    <revisionDesc><!--to be used in the future when edits are made AFTER our first trial run is completed--></revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <head><title>Incipit Liber Consolationis et Consilii.</title></head>
+          <ab>Quoniam multi sunt qui in adversitatibus et tribulationibus taliter affliguntur et deprimuntur, quod, cum in se propter animi perturbationem nec consilium nec consolationem habeant neque ab aliis expectent, ita contristantur, ut de malo in pejus cadant: ideo tibi, filio meo Johanni, qui in arte cyrurgiae medicando te exerces, et plerumque tales invenis, quaedam tibi pro modulo meae scientiae scribere curavi, per quae, dante Domino, poteris praedictis non solum in corporibus medelam tribuere, sed etiam circa praedicta consilium et consolationem impertiri atque juvamen. Legas itaque similitudinem infra scriptam, et auctoritates in hoc libro notatas attente ac studiosissime perlegas, et ita, divina favente <corr cert="high" resp="#MA">gratia</corr>, poteris tibi et aliis proficiendo ad praedicta leviter pervenire. Ecce similitudo.</ab>
+            <div type="chapter" n="1">
+              <head>Caput I</head>
+              <head>Exemplum in persona Melibei.</head>
+                <p n="1.1">Quidam juvenis, Melibeus nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso ostio domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras domus intrantes, uxorem Melibei, Prudentiam nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in oculis, auribus, ore et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
+                <p n="1.2">Melibeus vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo Ovidii, De Remedio Amoris, qui dixit:
+                  <said who="#prud" aloud="true" direct="true">
+                    <cit rend="blockquote" type="classical">
+                      <quote>Quis matrem, nisi mentis inops, in funere nati
+                        Flere vetat? non hoc illa monenda loco est.
+                        Cum dederit lacrimas animumque impleverit aegrum,
+                        Ille dolor verbis emoderandus erit.
+                      </quote>
+                      <bibl n="001" resp="#TS">(<author>Ovid</author>, <title>Remedia Amoris</title>,
+                      <biblScope unit="line" from="127" to="130">127-130</biblScope>)</bibl>
+                    </cit>
+                  </said>
+                </p>
+            </div>
+            <div type="chapter" n="2">
+                <head>Caput II</head>
+                <head>De consolatione.</head>
+                  <p n="2.1">Cum autem vir a fletu aliquantulum cessasset animumque aegrum implevisset, coepit illum Prudentia monere dicens:
+                    <said who="#prud" aloud="true" direct="true">
+                    <cit rend="blockquote" type="scMed">
+                      <quote>Stulte cur insanis, quid te dolor urget inanis?
+                          Acquirit gemitus praemia nulla tuus,
+                          Temperet ergo tuum modus et prudentia fletum;
+                          Terge tuas lacrimas; prospice quid facias.
+                      </quote>
+                      <bibl n="002" resp="#TS">(<title>Pamphilus de Amore</title>,
+                      <biblScope unit="line" from="463" to="466">463-466</biblScope>)</bibl>
+                      <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
+                    </cit>
+                    <cit rend="blockquote" type="scMed">
+                      <quote>Ut graviter doleat, non pertinet ad sapientem,
+                        Cum dolor ad dominum praemia nulla ferat.
+                      </quote>
+                      <bibl n="003" resp="#TS">(<title>Pamphilus de Amore</title>,
+                      <biblScope unit="line" from="769" to="770">769-770</biblScope>)</bibl>
+                      <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
+                    </cit>
+                    "Filia tua, dante Domino, bene liberabitur; nam etsi mortua fuerit, non tamen te propter illam destruere debes. Ait enim Seneca:
+                    <cit type="classical">
+                      <quote>'Non affligitur sapiens liberorum vel amicorum amissione:
+                        eodem animo enim fert illorum mortem quo suam expectat.'
+                      </quote>
+                      <bibl n="004" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                      <biblScope unit="letter.line">74.30</biblScope>)</bibl>
+                      <!--can dots be included in the value space? If not, command f and simplify to "letterline" or just letter-->
+                    </cit>
+                    <cit type="classical">
+                      <quote>'Malo enim, ut relinquas dolorem quam ab illo relinquaris:
+                        et quam primum id facere desiste, quod, etiam si voles, diu facere non poteris.'
+                      </quote>
+                        <bibl n="005" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                        <biblScope unit="letter.line">63.12</biblScope>)</bibl>
+                    </cit>
+                  "</said>
+                  </p>
+                  <p n="2.2">Melibeus respondit:
+                    <said who="#melib" aloud="true" direct="true">
+                    "Quis posset in tanto dolore fletum et lacrimas cohibere, nam et Dominus noster, Jhesus Christus, de Lazaro amico suo
+                      <cit type="biblicalNt">
+                        <quote>infremuit spiritu et lacrimatus est.</quote>
+                          <bibl n="006" resp="#TS">(John 11:33, 35)</bibl>
+                      </cit>
+                    "</said>
+                  </p>
+                  <p n="2.3">At Prudentia dixit:
+                    <said who="#prud" aloud="true" direct="true">
+                    "Temperatus fletus a tristi vel inter tristes non est prohibitus, immo concessus secundum beatum Paulum, qui dixit in Epistola ad Romanos:
+                      <cit type="biblicalNt">
+                        <quote>Gaudere cum gaudentibus et flere cum flentibus.</quote>
+                          <bibl n="007" resp="#TS">(Romans 12:15) <note type="editorial" resp="#MA">cf. Vulgate does not include “et”.</note></bibl>
+                      </cit>
+                    Et etiam Tullius dixit:
+                      <cit type="classical">
+                        <quote>'Proprium est animi bene constituti, et laetari bonis rebus et dolere contrariis;'</quote>
+                          <bibl n="008" resp="#TS">(<author>Cicero</author>, <title>De Amicitia</title>,
+                          <biblScope unit="letter.line">13.47</biblScope>)</bibl>
+                      </cit>
+                    plorare autem ac multas lacrimas fundere, prohibitum est. Modus vero a Seneca inventus est servandus, qui dixit:
+                      <cit type="classical">
+                        <quote>'Nec sicci sint oculi tui, amisso amico, nec fluant: lacrimandum est, et non plorandum.'</quote>
+                          <bibl n="009" resp="#TS">(<author>Seneca</author>, <title>De Amicitia</title>,
+                          <biblScope unit="letter.line">63.1</biblScope>)</bibl>
+                      </cit>
+                    Ante vero quam amicum amittas, repara ipsum, si commode potes, nam ut idem ait:
+                      <cit type="classical">
+                        <quote>'Sanctius est amicum reparare quam flere.'</quote>
+                          <bibl n="010" resp="#TS">(<author>Seneca</author>, <title>De Amicitia</title>,
+                          <biblScope unit="letter.line">63.11</biblScope>)</bibl>
+                      </cit>
+                    Ad hoc ergo ut prudenter vivas, tristitiam hujus seculi ab animo tuo omnino repellas, ait enim Jhesus Sirac:
+                      <cit type="biblicalOt">
+                        <quote>Multos enim occidit tristitia, nec est utilitas in illa.</quote>
+                          <bibl n="011" resp="#TS">(Ecclesiasticus 30:25) <note type="editorial" resp="#MA">cf. Vulgate uses “et non” instead of “nec”.</note></bibl>
+                      </cit>
+                    Et alibi idem dixit:
+                      <cit type="biblicalOt">
+                        <quote>Animus gaudens floridam vitam facit, spiritus vero tristis exsiccat ossa.</quote>
+                          <bibl n="012" resp="#TS">(Proverbs 17:22) <note type="editorial" resp="#MA">cf. Vulgate uses “aetatem” instead of “vitam”. The NRSV English translation “good medicine” is likely derived from a Greek manuscript, whereas both Albertano and the Vulgate use “floridam vitam/aetatem,” blooming life.</note></bibl>
+                      </cit>
+                    Et Salomon dixit:
+                      <cit type="biblicalOt">
+                        <quote>Sicut tinea vestimento et vermis ligno, ita tristitia nocet hominis cordi;</quote>
+                          <bibl n="013" resp="#TS">(Proverbs 25:20) <note type="editorial" resp="#MA">Hebrew lacks “like a moth…human heart.” Many Vulgates do not include this phrase, but the one that Albertano used likely did. The phrase comes from Greek manuscripts.</note></bibl>
+                      </cit>
+                    et iterum:
+                      <cit type="biblicalOt">
+                        <quote>Non contristabit justum quidquid ei acciderit, impii autem replebuntur malo.</quote>
+                          <bibl n="014" resp="#TS">(Proverbs 12:21) <note type="editorial" resp="#MA">cf. Vulgate uses “quicquid” instead of “quidquid”.</note></bibl>
+                      </cit>
+                    Et Seneca in Epistolis dixit:
+                      <cit type="classical">
+                        <quote>'Nihil est stultius quam famam captare tristitiae et lacrimas approbare;'</quote>
+                          <bibl n="015" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                          <biblScope unit="letter.line">99.18</biblScope>)</bibl>
+                      </cit>
+                      <cit type="classical">
+                        <quote>'nihil enim sapienti viro accidere potest, quod eum contristet: stat rectus sub quolibet pondere,'</quote>
+                          <bibl n="016" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                          <biblScope unit="letter.line">71.26</biblScope>)</bibl>
+                      </cit>
+                    sicut accidit in beato Job, qui cum omnes filios suos omnemque substantiam suam amisisset, insuper et multas in corpore suo tribulationes sustineret, semper stetit rectus ac semper Domino gratias agens dicebat:
+                      <cit type="biblicalOt">
+                        <quote>Dominus dedit, Dominus abstulit; quod Domino placuit factum est; sit nomen Domini benedictum</quote>
+                          <bibl n="017" resp="#TS">(Job 1:21) <note type="editorial" resp="#MA">“quod Domino placuit factum est” is neither in the Vulgate nor the NRSV.</note></bibl>
+                      </cit>
+                      <cit type="biblical">
+                        <quote>ex hoc nunc et usque in seculum.</quote>
+                          <bibl n="018" resp="#TS">(Psalms 112:2) <note type="editorial" resp="#MA">(NRSV 113:2); Albertano’s words “ex hoc nunc et usque in seculum” are used in the liturgical Episcopal Blessing derived from Psalms 112:2 “et usque in eternum.”</note></bibl>
+                      </cit>
+                    Non ergo debemus nimis dolere de filiis vel aliis rebus amissis, ex quo id quod accidit mutari non potest; sed potius debemus gaudere de habitis, quam dolere de amissis, unde quidam volens patrem de morte filii consolari sic ait: Noli flere quod bonum filium amisisti, sed potius quod talem habuisti, gaude. Et alibi idem Seneca ait:
+                      <cit type="classical">
+                        <quote>'Nulla res citius ad odium venit quam dolor; recens dolor libenter ad se consolationem inducit, inveteratus vero deridetur, nec immerito: aut enim simulatus est aut stultus.'</quote>
+                          <bibl n="019" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                          <biblScope unit="letter.line">63.13</biblScope>)</bibl>
+                      </cit>
+                    Et certe tristitiam hujus seculi a te ideo repellere debes, quia verum est, quod beatus Paulus in Epistola secunda ad Corinthios circa medium dixit:
+                      <cit type="biblicalNt">
+                        <quote>Seculi autem tristitia mortem operatur. Quae enim secundum Deum est, poenitentiam in salutem stabilem operatur;</quote>
+                          <bibl n="020" resp="#TS">(2 Corinthians 7:10) <note type="editorial" resp="#MA">Albertano maintains the exact words from the Vulgate but switches the order of the clauses to provide a smooth transition from Seneca’s previous statement about grief to be contrasted with godly grief.</note></bibl>
+                      </cit>
+                    et ideo eam a te nullo modo repellas, sed potius die noctuque studeas habere, quia postea
+                      <cit type="biblicalNt">
+                        <quote>convertetur in gaudium,</quote>
+                          <bibl n="021" resp="#TS">(John 16:20)</bibl>
+                      </cit>
+                    ut Dominus in Evangelio dixit. Unde Salomon ait:
+                      <cit type="biblicalOt">
+                        <quote>Cor sapientium est ubi tristitia, et cor stultorum ubi laetitia.</quote>
+                          <bibl n="022" resp="#TS">(Ecclesiastes 7:5) <note type="editorial" resp="#MA">(NRSV 7:4); NRSV specifies “house of” where Albertano and Vulgate use a general place, “ubi.”</note></bibl>
+                      </cit>
+                    Et iterum:
+                      <cit type="biblicalOt">
+                        <quote>Melius est ire ad domum luctus quam ad domum convivii.</quote>
+                          <bibl n="023" resp="#TS">(Ecclesiastes 7:3) <note type="editorial" resp="#MA">(NRSV 7:2)</note></bibl>
+                      </cit>
+                    "</said>
+                  </p>
+                  <p n="2.4"> Melibeus respondit:
+                    <said who="#melib" aloud="true" direct="true">
+                    "Omnia quaecunque dixisti vera sunt atque utilia; verumtamen animus turbatus me tantum impellit quod, quid facere debeam, ignoro."
+                    </said>
+                  </p>
+                  <p n="2.5"> At illa dixit:
+                    <said who="#prud" aloud="true" direct="true">
+                    "Convoca probatos ac fideles amicos, agnatos quoque et cognatos, et ab eis super praedictis diligenter consilium postula, et secundum illorum consilium te regas. Dixit enim Salomon:
+                      <cit type="biblicalOt">
+                        <quote>Omnia cum consilio fac, et non te poenitebit.</quote>
+                          <bibl n="024" resp="#TS">(Ecclesiasticus 32:24)</bibl>
+                      </cit>
+                    "</said>
+                  </p>
+                  <p n="2.6">Melibeus vero convocavit multitudinem hominum copiosam, inter quos fuerunt medici de cyrurgia et physici, senes quoque et juvenes, vicini vero multi, qui magis illum reverebantur timore, quam diligerent amore, et etiam quidam, qui de inimicis facti fuerant amici et qui in ejus gratiam redierant. Multi etiam convenerunt illuc assentatores sive adulatores et etiam causidici sapientes. Quibus convocatis ille per ordinem narrans omnia, quaecunque illi acciderant, et ab ipsis consilium postulans, magnam voluntatem de vindicta in continenti facienda demonstravit.
+                  </p>
+                  <p n="2.7">Tunc surrexit unus de medicis cyrurgiae de consensu aliorum de arte sua et inter cetera dixit:
+                    <said who="#other" aloud="true" direct="true">
+                    "Officium est medicorum atque ad illos semper spectat, omnibus prodesse ac nulli nocere. Plerumque enim accidit, ut, vulneribus in rixa utrinque factis, medici de arte sua utrique parti consulant ac utrisque sollicite medelam adhibeant. Et ideo non expedit eis de guerra vel vindicta consulere, nec inter aliquos partem capere, quare de vindicta facienda minime tibi consulimus. Filiam vero tuam, inspectis diligenter illius vulneribus, sollicite ac provide, die noctuque procurabimus, et, dante Domino, licet gravissime sit vulnerata, ad bonam plenamque sanitatem perducemus."
+                    </said>
+                  </p>
+                  <p n="2.8">Post illum vero unus de medicis physicae de consilio et voluntate aliorum consuluit quasi similia. Et post multa verba suum auxilium atque consilium circa medicinae artem pro filia sua illi, pro se et aliis, repromisit. Circa vero guerram atque vindictam sic ait:
+                    <said who="#other" aloud="true" direct="true">
+                    "Dicimus quia, sicut per physicam contraria contrariis curantur, ita et in guerra atque vindicta et in aliis rebus contraria contrariis curari consueverunt."
+                    </said>
+                  </p>
+                  <p n="2.9">Vicini vero et inimici quondam, qui modo in gratiam redierant, adulatores quoque sive assentatores, omnes quasi lacrimantes et dolorem in facie de eo quod acciderat ostendentes, de vindicta in continenti facienda et guerra viriliter peragenda consuluerunt, multum commendantes dominum Melibeum ejusque potentiam atque divitias, numerando etiam multitudinem agnatorum ejus et cognatorum, affinium quoque et amicorum, adversarorium insuper ejus potentiam vilipendendo <corr cert="high" resp="#MA">eorumque</corr> divitias verbis annihilando.
+                  </p>
+                  <p n="2.10">Deinde unus de sapientibus causidicis de voluntate aliorum surrexit, et inter cetera dixit:
+                    <said who="#other" aloud="true" direct="true">
+                    "Negotium istud arduum est, ratione injuriae et maleficii noviter commissi, et quia multa graviora in futurum hac occasione possent contingere. Arduum etiam est ratione vicinitatis et divitiarum ac potentiae utriusque partis et etiam multis aliis rationibus, quae de facili non possent excogitari, nec conveniens esset hic numerari. Quare, cum sollicite sit procedendum, <corr cert="high" resp="#MA">consulimus</corr> tibi, quatenus personam tuam ita custodias, quod neque dolus neque astutiae desint tibi ad cavendum. Insuper etiam domum tuam diligenter munias. De facto autem vindictae atque guerrae faciendae dubium maximum videmus, quare, quid melius sit, adhuc judicare non possumus, unde spatium deliberandi causa postulamus; non enim subito vel celeriter est judicandum,
+                      <cit type="churchFa">
+                        <quote>'omnia enim subita probantur incauta,'</quote>
+                          <bibl n="025" resp="#TS">(<author>Cassiodorus</author>, <title>Variae</title>,
+                          <biblScope unit="book.letter.line">1.17.1</biblScope>)</bibl>
+                      </cit>
+                    et
+                      <cit type="classical">
+                        <quote>'in judicando criminosa est celeritas,'</quote>
+                          <bibl n="026" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
+                          <biblScope unit="line">293</biblScope>)</bibl>
+                      </cit>
+                    et
+                      <cit type="classical">
+                        <quote>'ad poenitendum properat qui cito judicat,</quote>
+                          <bibl n="027" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
+                          <biblScope unit="line">32</biblScope>)</bibl>
+                      </cit>
+                    quare <corr cert="high" resp="#MA">dici</corr> consuevit:
+                      <cit>
+                        <quote>'Optimum judicem existimo, qui cito intelligit et tarde judicat;'</quote>
+                          <bibl n="028" resp="#AG">(origin unknown)</bibl>
+                      </cit>
+                    nam licet mora omnis odio sit, non tamen in judicando mora competens est reprobanda; scriptum est enim:
+                      <cit>
+                        <quote>'Mora omnis odio est, sed facit sapientem,'</quote>
+                          <bibl n="029" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
+                          <biblScope unit="line">352</biblScope>)</bibl>
+                      </cit>
+                    quare, si super praedictis deliberare volumus, non est mirandum.
+                      <cit>
+                        <quote>'Deliberare enim utilia mora est tutissima;'</quote>
+                          <bibl n="030" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
+                          <biblScope unit="line">151</biblScope>)</bibl>
+                      </cit>
+                    dici enim vulgo consuevit:
+                      <cit>
+                        <quote>'Melior est judex lentus, quam ad judicandum properans,'</quote>
+                          <bibl n="031" resp="#AG">(origin unknown)</bibl>
+                      </cit>
+                    nam et ipse Deus, cum super muliere in adulterio deprehensa judicare vellet, scribendo in terra bis deliberavit.<!--Oh no. Footnote 32-->
+                    Nos autem post deliberationem, dante Domino, super praedictis tibi utiliter consulemus.
+                    "</said>
+                  </p>
+                  <p n="2.11">Juvenes vero confisi de fortitudine ac viribus suis et etiam de multitudine illorum, qui videbantur amici, post multas laudes domini Melibei ac divitiarum et parentelae illius et potentiae, consuluerunt vindictam in continenti faciendam et guerram potenti manu pertractandam, adversariorum potentiam et divitias pro nihilo reputantes, reprehendendo etiam sapientes de inducia et deliberatione postulata, allegando etiam quod, sicut ferrum igne calefactum et candidatum semper melius quam frigidum laboratur, ita et injuria recens in continenti semper melius quam ex intervallo vindicatur. Tunc vero quasi omnes cum magno strepitu clamaverunt:
+                    <said who="#other" aloud="true" direct="true">"Sic, sic, fiat, fiat."</said>
+                  </p>
+                  <p n="2.12">Tunc denique unus de senioribus indicens manu silentium de consensu et voluntate aliorum senium dixit:
+                    <said who="#other" aloud="true" direct="true">
+                    "Multi clamant <quote type="exeg">sic, sic</quote>, qui vim verborum nesciunt et quod dicunt penitus ignorant. Vindicta certe et guerra, quae oritur ex ea, tam largum habent introitum, ut initium ejus cuilibet pateat, finis vero illius cum magna difficultate et vix aut nunquam reperitur. Multi in principio guerrae nondum nati sunt, qui ante finem illius cum multo labore ac multis aerumpnis aut senescunt aut miserabiliter propter guerram vitam finiunt. Quare non est subito nec festinanter procedendum; sed cum diligenti provisione et praeparatione ac deliberatione maxima sollicitaque cura omnia sunt peragenda.
+                    "</said>
+                  Cumque vellet dictum suum rationibus comprobare, fere omnes contra illum insultare coeperunt dictumque suum frequenter interrumpere dicentes, ut verba sua cum festinatione finiret, dictumque fuit illi:
+                  <said who="#other" aloud="true" direct="true">
+                    "<cit type="biblicalOt">
+                      <quote>Ubi non est auditus, non effundas sermonem, et importune <corr cert="high" resp="#MA">noli</corr> extolli in sapientia tua,</quote>
+                      <bibl n="033" resp="#TS">(Ecclesiasticus 32:6)</bibl>
+                    </cit>
+                  importuna est enim narratio tua, quia tibi non praebetur auditus, et est quasi <quote type="exeg">musica in luctu</quote>;
+                  ait enim Jhesus Sirac:
+                      <cit type="biblicalOt">
+                        <quote>Musica in luctu importuna narratio.</quote>
+                        <bibl n="034" resp="#TS">(Ecclesiasticus 22:6)</bibl>
+                      </cit>
+                  "</said>
+                  Cum autem senior vidisset, sibi denegari audientiam, et cognosceret, quia invito auditori nemo bene refert, dixit illis:
+                  <said who="#other" aloud="true" direct="true">
+                    "<cit type="classical">
+                      <quote>Inconsulta temeritas nescit expectare consilium,</quote>
+                      <bibl n="035" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                      <biblScope unit="letter.line">85.28</biblScope>)</bibl>
+                    </cit>
+                    et iterum:
+                    <cit type="chruchFa">
+                      <quote>'Consilium quippe mutare detractat improvidus;'</quote>
+                        <bibl n="036" resp="#TS">(<author>Cassiodorus</author>, <title>Variae</title>,
+                        <biblScope unit="book.letter.line">10.4.3</biblScope>)</bibl>
+                    </cit>
+                    nunc certe cognosco verum, quod dici consuevit:
+                    <cit type="classical">
+                      <quote>'Semper consilium tunc deest, quando maxime opus est,'</quote>
+                        <bibl n="037" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
+                        <biblScope unit="line">653</biblScope></bibl>
+                    </cit>
+                  "</said>
+                  et ita quasi confusus senior resedit.
+                </p>
+                <p n="2.13">Sed et multi ad aures Melibei aliter consulebant secreto, quam palam dicere vellent, immo palam aliud monstrabant.</p>
+                <p n="2.14">Tunc vero exsurgens Melibeus, facta inter eos more solito partita, cognovit, viginti partes illorum esse de partita vindictae in continenti faciendae atque guerrae viriliter pertractandae, unde consilium illorum laudavit, insuper et firmavit.</p>
+                <p n="2.15">Cumque Melibeus ad vindictam properaret, domina Prudentia, uxor ejus occurrens ei, prius cognitis, quae ordinata fuerant atque per consilium jam dictum stabilita, dixit illi:
+                  <said who="#prud" aloud="true" direct="true">
+                    <cit rend="blockquote" type="classical">
+                      <quote>Ne properes oro, spatium pro munere posco.</quote>
+                        <bibl n="038" resp="#TS">(<author>Ovid</author>, <title>Remedia Amoris</title>,
+                        <biblScope unit="line">277</biblScope>)</bibl>
+                      </cit>
+                  "Nam Petrus Alfunsus dixit:
+                    <cit type="contMed">
+                      <quote>'Ne properes ulli reddere mutuum boni vel mali, quia diutius expectabit te amicus, et diutius timebit te inimicus.'</quote>
+                        <bibl n="039" resp="#TS">(<author>Peter Alfonsi</author>, <title>Disciplina Clericalis</title>,
+                        <biblScope unit="letter.line" from="34.23" to="34.24">34.23-24</biblScope>)</bibl>
+                        <!--Check this unit!-->
+                    </cit>
+                  Igitur
+                    <cit type="biblicalOt">
+                      <quote>desine ab ira et derelinque furorem: noli aemulari ut maligneris.</quote>
+                        <bibl n="040" resp="#TS">(Psalms 36:8)</bibl>
+                    </cit>
+                  Domine mi, nonne vis etiam meum consilium habere.
+                "</said>
+              </p>
+            </div>
+            <div type="chapter" n="3">
+              <p n="3.1">
+              </p>
+            </div>
+      </body>
+    </text>
+  </TEI>
+</xml>
