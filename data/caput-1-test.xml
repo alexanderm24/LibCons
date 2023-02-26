@@ -1,0 +1,141 @@
+<!DOCTYPE xml>
+<xml>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>Liber consolationis et consilii: an electronic transcription and translation</title>
+          <author xml:id="AdB">Albertano da Brescia</author>
+          <respStmt>
+            <name xml:id="TS">Thor Sundby</name>
+            <resp>1873 editor</resp>
+          </respStmt>
+          <respStmt>
+            <name xml:id="AG">Angus Graham</name>
+            <resp>2000 editor</resp>
+          </respStmt>
+          <respStmt>
+            <name xml:id="MV">Melissa Vise</name>
+            <resp>current editor</resp>
+          </respStmt>
+          <respStmt>
+            <name xml:id="MA">Margaret Alexander</name>
+            <resp>current editor</resp>
+            <resp>current translation</resp>
+          </respStmt>
+          <principal>Melissa Vise</principal>
+        </titleStmt>
+        <extent><!--how big the document file is; optional--></extent>
+        <publicationStmt>
+          <p><!--something about public domain--></p>
+          <pubPlace></pubPlace>
+          <availability status="free">Free</availability>
+          <date when="2022-15-09" calendar="Gregorian">15 July 2022</date>
+        </publicationStmt>
+        <sourceDesc>
+          <bibl><title>Liber Consolationis Et Consilii</title>
+          by <author>Albertano da Brescia</author>.
+          <pubPlace>Brescia</pubPlace>, <date when="1246">1246</date>.
+            Transcribed from the Thor Sundby 1873 critical edition</bibl>.
+          <listWit>
+            <witness xml:id="A"></witness>
+            <witness xml:id="A2"></witness>
+            <witness xml:id="B"></witness>
+            <witness xml:id="C"></witness>
+            <witness xml:id="D"></witness>
+            <witness xml:id="E"></witness>
+            <witness xml:id="F"></witness>
+            <witness xml:id="G"></witness>
+            <witness xml:id="H"></witness>
+            <witness xml:id="I"></witness>
+            <!--Note the absense of a manuscript J. Sundby keeps consistency with the Latin alphabet-->
+            <witness xml:id="K"></witness>
+            <witness xml:id="L"></witness>
+            <witness xml:id="M"></witness>
+            <witness xml:id="N"></witness>
+            <witness xml:id="O"></witness>
+          </listWit>
+        </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+        <editorialDecl>
+          <correction method="markup">
+            <p>Apparent errors in Graham transcription have been corrected using the corr element, resolving any discrepancies with Sundby transcription;
+              because high quality scans of Albertano's book have been uploaded to Google Books, we see no need to record Graham's obvious and unintentional errors.</p>
+          </correction>
+          <normalization method="silent" source="https://www.chicagomanualofstyle.org/book/ed17/part2/ch13/psec007.html">
+            <p>Punctuation has been modernized to fall within quotation marks, i.e. ," as opposed to ", at the end of a direct quote.</p>
+            <p>Dipthongs have been separated, i.e. oe instead of œ, ae instead of æ.</p>
+          </normalization>
+          <quotation marks="some">
+            <p>Double quotation marks now introduce direct speech,
+              whereas Sundby 1873 critical edition used double quotation marks when characters quoted other sources.
+              Single quotation marks now are used for imbedded quotes by nonbiblical authors.</p>
+          </quotation>
+          <hyphenation eol="none">
+            <p>End​-of​-line hyphenation from Sundby transcription has been removed.</p>
+          </hyphenation>
+          <interpretation>
+            <p>Biblical references are marked in italics.</p>
+            <p>Exegetical quotes are underlined.</p>
+            <!--Is this the appropriate place for this?-->
+          </interpretation>
+        </editorialDecl>
+        <projectDesc>
+          <p>Text encoded for making <name type="title">Liber Consolationis et Consilii</name>
+            accessible online and free to the public.</p>
+        </projectDesc>
+        <tagsDecl>
+        <!--Add tags here: biblicalOt, biblicalNt, classical, churchFa, contMed, lawMed, scMed, exeg; define #prud, #melib, #other. Add CSS blockquote rendition-->
+        </tagsDecl>
+        <refsDecl>
+          <p>Chapters in the text are numbered with the <att>n</att> attribute;
+            chapters are numbered using arabic numerals.
+            Numbering is consecutive throughout the book. For example:
+            <val>3</val> numbers the 3rd chapter of the book.</p>
+          <p>Each paragraph in the text is numbered with the <att>n</att> attribute according to
+            its respective chapter with the dot as a separation marker. For example:
+            <val>1.3</val> identifies the third paragraph of the first chapter.</p>
+          <p>Citations in the text are numbered with the <att>n</att> attribute.
+            Each number consists of of three digits; numbering is consecutive throughout
+            the text. For example:
+            <val>001</val> numbers the 1st citation.</p>
+        </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+        <creation>Originally written in <date when="1246">1246</date> in
+          <name type="city">Brescia</name>, <name type="country">Italy</name>.</creation>
+        <langUsage>
+          <language ident="en" usage="1">English</language>
+          <language ident="la" usage="1">Latin</language>
+          <language ident="it" usage="1">Italian</language>
+          <!--Professor Brooks will get back to us on language/translation. Update: We will most likely have a separate English translation TEI document. Standby-->
+        </langUsage>
+    </profileDesc>
+    <revisionDesc><!--to be used in the future when edits are made AFTER our first trial run is completed--></revisionDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="chapter" n="1">
+          <head>Caput I</head>
+          <head>Exemplum in persona Melibei.</head>
+            <p n="1.1">Quidam juvenis, <name>Melibeus</name> nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso ostio domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras domus intrantes, uxorem Melibei, <name>Prudentiam</name> nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in oculis, auribus, ore et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
+            <p n="1.2"><name>Melibeus</name> vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
+              <said who="#prud" aloud="false" direct="false">
+                <quote rend="blockquote" type="classical">
+                  <l>Quis matrem, nisi mentis inops, in funere nati</l>
+                  <l>Flere vetat? non hoc illa monenda loco est.</l>
+                  <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
+                  <l>Ille dolor verbis emoderandus erit.</l>
+                  </quote>
+                  <note place="margin">
+                    <author>Ovid</author>, <title>Remedia Amoris</title>,
+                    127-130.
+                  </note>
+              </said>
+            </p>
+        </div>
+      </body>
+    </text>
+  </TEI>
+</xml>

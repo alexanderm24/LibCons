@@ -37,6 +37,24 @@
           by <author>Albertano da Brescia</author>.
           <pubPlace>Brescia</pubPlace>, <date when="1246">1246</date>.
             Transcribed from the Thor Sundby 1873 critical edition</bibl>.
+          <listWit>
+            <witness xml:id="A"></witness>
+            <witness xml:id="A2"></witness>
+            <witness xml:id="B"></witness>
+            <witness xml:id="C"></witness>
+            <witness xml:id="D"></witness>
+            <witness xml:id="E"></witness>
+            <witness xml:id="F"></witness>
+            <witness xml:id="G"></witness>
+            <witness xml:id="H"></witness>
+            <witness xml:id="I"></witness>
+            <!--Note the absense of a manuscript J. Sundby keeps consistency with the Latin alphabet-->
+            <witness xml:id="K"></witness>
+            <witness xml:id="L"></witness>
+            <witness xml:id="M"></witness>
+            <witness xml:id="N"></witness>
+            <witness xml:id="O"></witness>
+          </listWit>
         </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -107,10 +125,11 @@
                 <p n="1.2">Melibeus vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo Ovidii, De Remedio Amoris, qui dixit:
                   <said who="#prud" aloud="true" direct="true">
                     <cit rend="blockquote" type="classical">
-                      <quote>Quis matrem, nisi mentis inops, in funere nati
-                        Flere vetat? non hoc illa monenda loco est.
-                        Cum dederit lacrimas animumque impleverit aegrum,
-                        Ille dolor verbis emoderandus erit.
+                      <quote>
+                        <l>Quis matrem, nisi mentis inops, in funere nati</l>
+                        <l>Flere vetat? non hoc illa monenda loco est.</l>
+                        <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
+                        <l>Ille dolor verbis emoderandus erit.</l>
                       </quote>
                       <bibl n="001" resp="#TS">(<author>Ovid</author>, <title>Remedia Amoris</title>,
                       <biblScope unit="line" from="127" to="130">127-130</biblScope>)</bibl>
@@ -124,18 +143,20 @@
                   <p n="2.1">Cum autem vir a fletu aliquantulum cessasset animumque aegrum implevisset, coepit illum Prudentia monere dicens:
                     <said who="#prud" aloud="true" direct="true">
                     <cit rend="blockquote" type="scMed">
-                      <quote>Stulte cur insanis, quid te dolor urget inanis?
-                          Acquirit gemitus praemia nulla tuus,
-                          Temperet ergo tuum modus et prudentia fletum;
-                          Terge tuas lacrimas; prospice quid facias.
+                      <quote>
+                          <l>Stulte cur insanis, quid te dolor urget inanis?</l>
+                          <l>Acquirit gemitus praemia nulla tuus,</l>
+                          <l>Temperet ergo tuum modus et prudentia fletum;</l>
+                          <l>Terge tuas lacrimas; prospice quid facias.</l>
                       </quote>
                       <bibl n="002" resp="#TS">(<title>Pamphilus de Amore</title>,
                       <biblScope unit="line" from="463" to="466">463-466</biblScope>)</bibl>
                       <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
                     </cit>
                     <cit rend="blockquote" type="scMed">
-                      <quote>Ut graviter doleat, non pertinet ad sapientem,
-                        Cum dolor ad dominum praemia nulla ferat.
+                      <quote>
+                        <l>Ut graviter doleat, non pertinet ad sapientem,</l>
+                        <l>Cum dolor ad dominum praemia nulla ferat.</l>
                       </quote>
                       <bibl n="003" resp="#TS">(<title>Pamphilus de Amore</title>,
                       <biblScope unit="line" from="769" to="770">769-770</biblScope>)</bibl>
@@ -231,7 +252,7 @@
                       </cit>
                       <cit type="biblical">
                         <quote>ex hoc nunc et usque in seculum.</quote>
-                          <bibl n="018" resp="#TS">(Psalms 112:2) <note type="editorial" resp="#MA">(NRSV 113:2); Albertano’s words “ex hoc nunc et usque in seculum” are used in the liturgical Episcopal Blessing derived from Psalms 112:2 “et usque in eternum.”</note></bibl>
+                          <bibl n="018" resp="#TS">(Psalms 112:2) <note type="editorial" resp="#MA">(NRSV 113:2); Albertano's words “ex hoc nunc et usque in seculum” are used in the liturgical Episcopal Blessing derived from Psalms 112:2 “et usque in eternum.”</note></bibl>
                       </cit>
                     Non ergo debemus nimis dolere de filiis vel aliis rebus amissis, ex quo id quod accidit mutari non potest; sed potius debemus gaudere de habitis, quam dolere de amissis, unde quidam volens patrem de morte filii consolari sic ait: Noli flere quod bonum filium amisisti, sed potius quod talem habuisti, gaude. Et alibi idem Seneca ait:
                       <cit type="classical">
@@ -359,7 +380,7 @@
                   <said who="#other" aloud="true" direct="true">
                     "<cit type="classical">
                       <quote>Inconsulta temeritas nescit expectare consilium,</quote>
-                      <bibl n="035" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                      <bibl n="035" resp="#AG">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
                       <biblScope unit="letter.line">85.28</biblScope>)</bibl>
                     </cit>
                     et iterum:
@@ -372,7 +393,7 @@
                     <cit type="classical">
                       <quote>'Semper consilium tunc deest, quando maxime opus est,'</quote>
                         <bibl n="037" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
-                        <biblScope unit="line">653</biblScope></bibl>
+                        <biblScope unit="line">653</biblScope>)</bibl>
                     </cit>
                   "</said>
                   et ita quasi confusus senior resedit.
@@ -382,10 +403,10 @@
                 <p n="2.15">Cumque Melibeus ad vindictam properaret, domina Prudentia, uxor ejus occurrens ei, prius cognitis, quae ordinata fuerant atque per consilium jam dictum stabilita, dixit illi:
                   <said who="#prud" aloud="true" direct="true">
                     <cit rend="blockquote" type="classical">
-                      <quote>Ne properes oro, spatium pro munere posco.</quote>
+                      <quote><l>Ne properes oro, spatium pro munere posco.</l></quote>
                         <bibl n="038" resp="#TS">(<author>Ovid</author>, <title>Remedia Amoris</title>,
                         <biblScope unit="line">277</biblScope>)</bibl>
-                      </cit>
+                    </cit>
                   "Nam Petrus Alfunsus dixit:
                     <cit type="contMed">
                       <quote>'Ne properes ulli reddere mutuum boni vel mali, quia diutius expectabit te amicus, et diutius timebit te inimicus.'</quote>
@@ -403,8 +424,47 @@
               </p>
             </div>
             <div type="chapter" n="3">
-              <p n="3.1">
-              </p>
+              <head>Caput III</head>
+              <head>De improperio mulierum.</head>
+                <p n="3.1">
+                  Qui respondens ait:
+                  <said who="#melib" aloud="true" direct="true">
+                  "Tuo consilio uti minime proposui multis rationibus. Primo, quia pro stulto ab omnibus reputarer, si pro tuo consilio vel sensu mutarem quod est a tanta multitudine hominum stabilitum. 
+                  Secunda ratione, quia mulieres malae sunt, nullaque bona reperitur, Salomone testante, qui dixit: 
+                    <cit type="biblicalOt">
+                      <quote>Virum de mille unum reperi, mulierem ex omnibus non inveni.</quote>
+                        <bibl n="041" resp="#MA">(Ecclesiastes 7:29)</bibl>
+                    </cit>
+                  Tertia ratione, quia si tuo sensu ac consilio me regerem, jam viderer tibi super me dare primatum, et ita per hoc facerem te mihi contrariam, et potestatem tibi super me darem, quod esse minime debet; 
+                  ait enim Jhesus Sirac: 
+                    <cit type="biblicalOt">
+                      <quote>Mulier, si primatum habeat, contraria est viro suo;</quote> 
+                        <bibl n="042" resp="#TS">(Ecclesiasticus 25:30)</bibl>
+                    </cit>
+                  et Salomon dixit: 
+                    <cit type="biblicalOt">
+                      <quote>Audite populi et omnes gentes et rectores ecclesiae:	filio et mulieri et fratri et amico ne dederis potestatem super te in vita tua;</quote> 
+                        <bibl n="043" resp="#TS">(Ecclesiasticus 33:19-20)</bibl>
+                    </cit>
+                    <cit type="biblicalOt">
+                      <quote>melius est enim, ut filii tui in te respiciant, quam te respicere in manus filiorum tuorum.</quote> 
+                        <bibl n="044" resp="#TS">(Ecclesiasticus 33:22)</bibl>
+                    </cit>
+                  Quarta vero ratione, quia, si uterer consilio tuo, quandoque oporteret, ut secretum haberetur, donec illud patefieri foret necessarium, quod a te fieri non valeret; 
+                  scriptum est enim: 
+                    <cit type="classical">
+                      <quote>'Garrulitas mulierum id solum novit celare, quod nescit.'</quote>  
+                        <bibl n="045" resp="#TS">(<author>Seneca Maior</author>, <title>Controversiis</title>, 
+                        <biblScope unit="XX">2.13.12</biblScope>)</bibl>
+                    </cit>
+                  Quinta denique ratione propter philosophi verbum, qui dixit: 
+                    <cit type="classical">
+                      <quote>'Malo in consilio feminae vincunt viros.'</quote>
+                        <bibl n="046" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>, 
+                        <biblScope unit="line">365</biblScope>)</bibl>
+                    </cit>
+                  "</said>
+                </p>
             </div>
       </body>
     </text>
