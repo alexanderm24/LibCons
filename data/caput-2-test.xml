@@ -128,7 +128,7 @@
                       </quote>
                       <bibl n="002" resp="#TS">(<title>Pamphilus de Amore</title>,
                       <biblScope unit="line" from="463" to="466">463-466</biblScope>)</bibl>
-                      <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
+                      <note type="editorial" resp="#MA"><title>Pamphilus de Amore</title>, also referred to as <title>Pamphilus<title>, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in <author>Ovid</author> <title>Amores<title> Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
                     </cit>
                     <cit rend="blockquote" type="scMed">
                       <quote>
@@ -137,29 +137,25 @@
                       </quote>
                       <bibl n="003" resp="#TS">(<title>Pamphilus de Amore</title>,
                       <biblScope unit="line" from="769" to="770">769-770</biblScope>)</bibl>
-                      <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
                     </cit>
                     Filia tua, dante Domino, bene liberabitur; nam etsi mortua fuerit, non tamen te propter illam destruere debes. Ait enim Seneca:
                     <cit type="classical">
-                      <quote>'Non affligitur sapiens liberorum vel amicorum amissione:
-                        eodem animo enim fert illorum mortem quo suam expectat.'
-                      </quote>
+                      <quote>Non affligitur sapiens liberorum vel amicorum amissione:
+                        eodem animo enim fert illorum mortem quo suam expectat.</quote>
                       <bibl n="004" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
                       <biblScope unit="letter.line">74.30</biblScope>)</bibl>
                       <!--can dots be included in the value space? If not, command f and simplify to "letterline" or just letter-->
                     </cit>
                     <cit type="classical">
-                      <quote type="classical">'Malo enim, ut relinquas dolorem quam ab illo relinquaris:
-                        et quam primum id facere desiste, quod, etiam si voles, diu facere non poteris.'
-                      </quote>
+                      <quote type="classical">Malo enim, ut relinquas dolorem quam ab illo relinquaris:
+                        et quam primum id facere desiste, quod, etiam si voles, diu facere non poteris.'</quote>
                         <bibl n="005" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
                         <biblScope unit="letter.line">63.12</biblScope>)</bibl>
                     </cit>
                   </said>
                   </p>
                   <p n="2.2">Melibeus respondit:
-                    <said who="#melib" aloud="true" direct="true">
-                    Quis posset in tanto dolore fletum et lacrimas cohibere, nam et Dominus noster, Jhesus Christus, de Lazaro amico suo
+                    <said who="#melib" aloud="true" direct="true">Quis posset in tanto dolore fletum et lacrimas cohibere, nam et Dominus noster, Jhesus Christus, de Lazaro amico suo
                       <cit type="biblicalNt">
                         <quote type="biblicalNt">infremuit spiritu et lacrimatus est.</quote>
                           <bibl n="006" resp="#TS">(John 11:33, 35)</bibl></cit></said>
