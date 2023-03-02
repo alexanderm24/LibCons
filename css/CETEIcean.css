@@ -212,6 +212,10 @@ tei-cell {
   border-bottom: thin solid black;
   padding: 2px;
 }
+/*Figure out how to distinguish different citation types*/
+tei-cit {
+  font-style: none;
+}
 /* for cell or row with @role = label */
 tei-cell[data-tei-role=label] {
   font-weight: bold;
@@ -418,6 +422,7 @@ tei-cell item {
 /* l */
 tei-l {
   display: block;
+  margin-left: 2rem;
   width: 35em;
 }
 tei-l[data-lineno]:before {
@@ -647,14 +652,55 @@ tei-q[data-tei-prev]:before {
   content: "" !important;
 }
 /*quote styles are done according to quote types*/
-tei-quote {
-  font-style:none;
+
+/*biblical*/
+tei-quote[type|="biblicalNt"]{
+  font-style: italic;
 }
-.classical {
-  font-style:italic;
+
+tei-quote[type|="biblicalNt"]:hover {
+  background-color: yellow;
+  font-weight: bold;
 }
-.biblicalOt {
-  font-style:italic
+
+tei-quote[type|="biblicalOt"]{
+  font-style: italic;
+}
+/*churchFa*/
+tei-quote[type|="churchFa"]:before{
+  content:open-quote;
+}
+tei-quote[type|="churchFa"]:after{
+  content:close-quote;
+}
+/*classical*/
+tei-quote[type|="classical"]:before{
+  content:open-quote;
+}
+tei-quote[type|="classical"]:after{
+  content:close-quote;
+}
+/*medieval*/
+/*contMed*/
+tei-quote[type|="contMed"]:before{
+  content:open-quote;
+}
+tei-quote[type|="contMed"]:after{
+  content:close-quote;
+}
+/*lawMed*/
+tei-quote[type|="lawMed"]:before{
+  content:open-quote;
+}
+tei-quote[type|="lawMed"]:after{
+  content:close-quote;
+}
+/*scMed*/
+tei-quote[type|="scMed"]:before{
+  content:open-quote;
+}
+tei-quote[type|="scMed"]:after{
+  content:close-quote;
 }
 
 
@@ -700,6 +746,14 @@ tei-row {
 }
 
 /* s */
+tei-said:before{
+  content: open-quote;
+}
+
+tei-said:after{
+  content: close-quote;
+}
+
 tei-salute {
   display: block;
   margin-top: 1em;

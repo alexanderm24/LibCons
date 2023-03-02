@@ -114,44 +114,56 @@
     </profileDesc>
     <revisionDesc><!--to be used in the future when edits are made AFTER our first trial run is completed--></revisionDesc>
     </teiHeader>
-    <text>
-      <body>
-        <div type="chapter" n="1">
-          <head>Caput I</head>
-          <head>Exemplum in persona Melibei.</head>
-            <p n="1.1">Quidam juvenis, <name>Melibeus</name> nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso 
-              <app>
-                <lem>ostio</lem>
-                <rdg wit="#B">hostio</rdg>
-              </app>
-            domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras 
-            domus 
-              <app>
-              <!--I need help here learning how to indicate an omission-->
-              </app>     
-            intrantes, uxorem Melibei, <name>Prudentiam</name> nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in 
-            oculis, 
-              <app>
-                <rdg wit="#D">oculis et aur</rdg>
-              </app>
-            
-            auribus, ore et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
-            <p n="1.2"><name>Melibeus</name> vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
-              <said who="#prud" aloud="false" direct="false">
-                <quote rend="blockquote" type="classical">
-                  <l>Quis matrem, nisi mentis inops, in funere nati</l>
-                  <l>Flere vetat? non hoc illa monenda loco est.</l>
-                  <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
-                  <l>Ille dolor verbis emoderandus erit.</l>
-                  </quote>
-                  <note place="foot">
-                    <author>Ovid</author>, <title>Remedia Amoris</title>,
-                    127-130.
-                  </note>
-              </said>
-            </p>
-        </div>
-      </body>
-    </text>
+            <div type="chapter" n="2">
+                <head>Caput II</head>
+                <head>De consolatione.</head>
+                  <p n="2.1">Cum autem vir a fletu aliquantulum cessasset animumque aegrum implevisset, coepit illum Prudentia monere dicens:
+                    <said who="#prud" aloud="true" direct="true">
+                    <cit rend="blockquote" type="scMed">
+                      <quote>
+                          <l>Stulte cur insanis, quid te dolor urget inanis?</l>
+                          <l>Acquirit gemitus praemia nulla tuus,</l>
+                          <l>Temperet ergo tuum modus et prudentia fletum;</l>
+                          <l>Terge tuas lacrimas; prospice quid facias.</l>
+                      </quote>
+                      <bibl n="002" resp="#TS">(<title>Pamphilus de Amore</title>,
+                      <biblScope unit="line" from="463" to="466">463-466</biblScope>)</bibl>
+                      <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
+                    </cit>
+                    <cit rend="blockquote" type="scMed">
+                      <quote>
+                        <l>Ut graviter doleat, non pertinet ad sapientem,</l>
+                        <l>Cum dolor ad dominum praemia nulla ferat.</l>
+                      </quote>
+                      <bibl n="003" resp="#TS">(<title>Pamphilus de Amore</title>,
+                      <biblScope unit="line" from="769" to="770">769-770</biblScope>)</bibl>
+                      <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
+                    </cit>
+                    Filia tua, dante Domino, bene liberabitur; nam etsi mortua fuerit, non tamen te propter illam destruere debes. Ait enim Seneca:
+                    <cit type="classical">
+                      <quote>'Non affligitur sapiens liberorum vel amicorum amissione:
+                        eodem animo enim fert illorum mortem quo suam expectat.'
+                      </quote>
+                      <bibl n="004" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                      <biblScope unit="letter.line">74.30</biblScope>)</bibl>
+                      <!--can dots be included in the value space? If not, command f and simplify to "letterline" or just letter-->
+                    </cit>
+                    <cit type="classical">
+                      <quote type="classical">'Malo enim, ut relinquas dolorem quam ab illo relinquaris:
+                        et quam primum id facere desiste, quod, etiam si voles, diu facere non poteris.'
+                      </quote>
+                        <bibl n="005" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
+                        <biblScope unit="letter.line">63.12</biblScope>)</bibl>
+                    </cit>
+                  </said>
+                  </p>
+                  <p n="2.2">Melibeus respondit:
+                    <said who="#melib" aloud="true" direct="true">
+                    Quis posset in tanto dolore fletum et lacrimas cohibere, nam et Dominus noster, Jhesus Christus, de Lazaro amico suo
+                      <cit type="biblicalNt">
+                        <quote type="biblicalNt">infremuit spiritu et lacrimatus est.</quote>
+                          <bibl n="006" resp="#TS">(John 11:33, 35)</bibl></cit></said>
+                  </p>
+            </div>
   </TEI>
 </xml>

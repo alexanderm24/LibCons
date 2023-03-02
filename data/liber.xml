@@ -162,7 +162,7 @@
                       <biblScope unit="line" from="769" to="770">769-770</biblScope>)</bibl>
                       <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
                     </cit>
-                    "Filia tua, dante Domino, bene liberabitur; nam etsi mortua fuerit, non tamen te propter illam destruere debes. Ait enim Seneca:
+                    Filia tua, dante Domino, bene liberabitur; nam etsi mortua fuerit, non tamen te propter illam destruere debes. Ait enim Seneca:
                     <cit type="classical">
                       <quote>'Non affligitur sapiens liberorum vel amicorum amissione:
                         eodem animo enim fert illorum mortem quo suam expectat.'
@@ -178,20 +178,20 @@
                         <bibl n="005" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
                         <biblScope unit="letter.line">63.12</biblScope>)</bibl>
                     </cit>
-                  "</said>
+                  </said>
                   </p>
                   <p n="2.2">Melibeus respondit:
                     <said who="#melib" aloud="true" direct="true">
-                    "Quis posset in tanto dolore fletum et lacrimas cohibere, nam et Dominus noster, Jhesus Christus, de Lazaro amico suo
+                    Quis posset in tanto dolore fletum et lacrimas cohibere, nam et Dominus noster, Jhesus Christus, de Lazaro amico suo
                       <cit type="biblicalNt">
                         <quote>infremuit spiritu et lacrimatus est.</quote>
                           <bibl n="006" resp="#TS">(John 11:33, 35)</bibl>
                       </cit>
-                    "</said>
+                    </said>
                   </p>
                   <p n="2.3">At Prudentia dixit:
                     <said who="#prud" aloud="true" direct="true">
-                    "Temperatus fletus a tristi vel inter tristes non est prohibitus, immo concessus secundum beatum Paulum, qui dixit in Epistola ad Romanos:
+                    Temperatus fletus a tristi vel inter tristes non est prohibitus, immo concessus secundum beatum Paulum, qui dixit in Epistola ad Romanos:
                       <cit type="biblicalNt">
                         <quote>Gaudere cum gaudentibus et flere cum flentibus.</quote>
                           <bibl n="007" resp="#TS">(Romans 12:15) <note type="editorial" resp="#MA">cf. Vulgate does not include “et”.</note></bibl>
@@ -280,39 +280,39 @@
                         <quote>Melius est ire ad domum luctus quam ad domum convivii.</quote>
                           <bibl n="023" resp="#TS">(Ecclesiastes 7:3) <note type="editorial" resp="#MA">(NRSV 7:2)</note></bibl>
                       </cit>
-                    "</said>
+                    </said>
                   </p>
                   <p n="2.4"> Melibeus respondit:
                     <said who="#melib" aloud="true" direct="true">
-                    "Omnia quaecunque dixisti vera sunt atque utilia; verumtamen animus turbatus me tantum impellit quod, quid facere debeam, ignoro."
+                    Omnia quaecunque dixisti vera sunt atque utilia; verumtamen animus turbatus me tantum impellit quod, quid facere debeam, ignoro.
                     </said>
                   </p>
                   <p n="2.5"> At illa dixit:
                     <said who="#prud" aloud="true" direct="true">
-                    "Convoca probatos ac fideles amicos, agnatos quoque et cognatos, et ab eis super praedictis diligenter consilium postula, et secundum illorum consilium te regas. Dixit enim Salomon:
+                    Convoca probatos ac fideles amicos, agnatos quoque et cognatos, et ab eis super praedictis diligenter consilium postula, et secundum illorum consilium te regas. Dixit enim Salomon:
                       <cit type="biblicalOt">
                         <quote>Omnia cum consilio fac, et non te poenitebit.</quote>
                           <bibl n="024" resp="#TS">(Ecclesiasticus 32:24)</bibl>
                       </cit>
-                    "</said>
+                    </said>
                   </p>
                   <p n="2.6">Melibeus vero convocavit multitudinem hominum copiosam, inter quos fuerunt medici de cyrurgia et physici, senes quoque et juvenes, vicini vero multi, qui magis illum reverebantur timore, quam diligerent amore, et etiam quidam, qui de inimicis facti fuerant amici et qui in ejus gratiam redierant. Multi etiam convenerunt illuc assentatores sive adulatores et etiam causidici sapientes. Quibus convocatis ille per ordinem narrans omnia, quaecunque illi acciderant, et ab ipsis consilium postulans, magnam voluntatem de vindicta in continenti facienda demonstravit.
                   </p>
                   <p n="2.7">Tunc surrexit unus de medicis cyrurgiae de consensu aliorum de arte sua et inter cetera dixit:
                     <said who="#other" aloud="true" direct="true">
-                    "Officium est medicorum atque ad illos semper spectat, omnibus prodesse ac nulli nocere. Plerumque enim accidit, ut, vulneribus in rixa utrinque factis, medici de arte sua utrique parti consulant ac utrisque sollicite medelam adhibeant. Et ideo non expedit eis de guerra vel vindicta consulere, nec inter aliquos partem capere, quare de vindicta facienda minime tibi consulimus. Filiam vero tuam, inspectis diligenter illius vulneribus, sollicite ac provide, die noctuque procurabimus, et, dante Domino, licet gravissime sit vulnerata, ad bonam plenamque sanitatem perducemus."
+                    Officium est medicorum atque ad illos semper spectat, omnibus prodesse ac nulli nocere. Plerumque enim accidit, ut, vulneribus in rixa utrinque factis, medici de arte sua utrique parti consulant ac utrisque sollicite medelam adhibeant. Et ideo non expedit eis de guerra vel vindicta consulere, nec inter aliquos partem capere, quare de vindicta facienda minime tibi consulimus. Filiam vero tuam, inspectis diligenter illius vulneribus, sollicite ac provide, die noctuque procurabimus, et, dante Domino, licet gravissime sit vulnerata, ad bonam plenamque sanitatem perducemus.
                     </said>
                   </p>
                   <p n="2.8">Post illum vero unus de medicis physicae de consilio et voluntate aliorum consuluit quasi similia. Et post multa verba suum auxilium atque consilium circa medicinae artem pro filia sua illi, pro se et aliis, repromisit. Circa vero guerram atque vindictam sic ait:
                     <said who="#other" aloud="true" direct="true">
-                    "Dicimus quia, sicut per physicam contraria contrariis curantur, ita et in guerra atque vindicta et in aliis rebus contraria contrariis curari consueverunt."
+                    Dicimus quia, sicut per physicam contraria contrariis curantur, ita et in guerra atque vindicta et in aliis rebus contraria contrariis curari consueverunt.
                     </said>
                   </p>
                   <p n="2.9">Vicini vero et inimici quondam, qui modo in gratiam redierant, adulatores quoque sive assentatores, omnes quasi lacrimantes et dolorem in facie de eo quod acciderat ostendentes, de vindicta in continenti facienda et guerra viriliter peragenda consuluerunt, multum commendantes dominum Melibeum ejusque potentiam atque divitias, numerando etiam multitudinem agnatorum ejus et cognatorum, affinium quoque et amicorum, adversarorium insuper ejus potentiam vilipendendo <corr cert="high" resp="#MA">eorumque</corr> divitias verbis annihilando.
                   </p>
                   <p n="2.10">Deinde unus de sapientibus causidicis de voluntate aliorum surrexit, et inter cetera dixit:
                     <said who="#other" aloud="true" direct="true">
-                    "Negotium istud arduum est, ratione injuriae et maleficii noviter commissi, et quia multa graviora in futurum hac occasione possent contingere. Arduum etiam est ratione vicinitatis et divitiarum ac potentiae utriusque partis et etiam multis aliis rationibus, quae de facili non possent excogitari, nec conveniens esset hic numerari. Quare, cum sollicite sit procedendum, <corr cert="high" resp="#MA">consulimus</corr> tibi, quatenus personam tuam ita custodias, quod neque dolus neque astutiae desint tibi ad cavendum. Insuper etiam domum tuam diligenter munias. De facto autem vindictae atque guerrae faciendae dubium maximum videmus, quare, quid melius sit, adhuc judicare non possumus, unde spatium deliberandi causa postulamus; non enim subito vel celeriter est judicandum,
+                    Negotium istud arduum est, ratione injuriae et maleficii noviter commissi, et quia multa graviora in futurum hac occasione possent contingere. Arduum etiam est ratione vicinitatis et divitiarum ac potentiae utriusque partis et etiam multis aliis rationibus, quae de facili non possent excogitari, nec conveniens esset hic numerari. Quare, cum sollicite sit procedendum, <corr cert="high" resp="#MA">consulimus</corr> tibi, quatenus personam tuam ita custodias, quod neque dolus neque astutiae desint tibi ad cavendum. Insuper etiam domum tuam diligenter munias. De facto autem vindictae atque guerrae faciendae dubium maximum videmus, quare, quid melius sit, adhuc judicare non possumus, unde spatium deliberandi causa postulamus; non enim subito vel celeriter est judicandum,
                       <cit type="churchFa">
                         <quote>'omnia enim subita probantur incauta,'</quote>
                           <bibl n="025" resp="#TS">(<author>Cassiodorus</author>, <title>Variae</title>,
@@ -354,18 +354,18 @@
                       </cit>
                     nam et ipse Deus, cum super muliere in adulterio deprehensa judicare vellet, scribendo in terra bis deliberavit.<!--Oh no. Footnote 32-->
                     Nos autem post deliberationem, dante Domino, super praedictis tibi utiliter consulemus.
-                    "</said>
+                    </said>
                   </p>
                   <p n="2.11">Juvenes vero confisi de fortitudine ac viribus suis et etiam de multitudine illorum, qui videbantur amici, post multas laudes domini Melibei ac divitiarum et parentelae illius et potentiae, consuluerunt vindictam in continenti faciendam et guerram potenti manu pertractandam, adversariorum potentiam et divitias pro nihilo reputantes, reprehendendo etiam sapientes de inducia et deliberatione postulata, allegando etiam quod, sicut ferrum igne calefactum et candidatum semper melius quam frigidum laboratur, ita et injuria recens in continenti semper melius quam ex intervallo vindicatur. Tunc vero quasi omnes cum magno strepitu clamaverunt:
-                    <said who="#other" aloud="true" direct="true">"Sic, sic, fiat, fiat."</said>
+                    <said who="#other" aloud="true" direct="true">Sic, sic, fiat, fiat.</said>
                   </p>
                   <p n="2.12">Tunc denique unus de senioribus indicens manu silentium de consensu et voluntate aliorum senium dixit:
                     <said who="#other" aloud="true" direct="true">
-                    "Multi clamant <quote type="exeg">sic, sic</quote>, qui vim verborum nesciunt et quod dicunt penitus ignorant. Vindicta certe et guerra, quae oritur ex ea, tam largum habent introitum, ut initium ejus cuilibet pateat, finis vero illius cum magna difficultate et vix aut nunquam reperitur. Multi in principio guerrae nondum nati sunt, qui ante finem illius cum multo labore ac multis aerumpnis aut senescunt aut miserabiliter propter guerram vitam finiunt. Quare non est subito nec festinanter procedendum; sed cum diligenti provisione et praeparatione ac deliberatione maxima sollicitaque cura omnia sunt peragenda.
-                    "</said>
+                    Multi clamant <quote type="exeg">sic, sic</quote>, qui vim verborum nesciunt et quod dicunt penitus ignorant. Vindicta certe et guerra, quae oritur ex ea, tam largum habent introitum, ut initium ejus cuilibet pateat, finis vero illius cum magna difficultate et vix aut nunquam reperitur. Multi in principio guerrae nondum nati sunt, qui ante finem illius cum multo labore ac multis aerumpnis aut senescunt aut miserabiliter propter guerram vitam finiunt. Quare non est subito nec festinanter procedendum; sed cum diligenti provisione et praeparatione ac deliberatione maxima sollicitaque cura omnia sunt peragenda.
+                    </said>
                   Cumque vellet dictum suum rationibus comprobare, fere omnes contra illum insultare coeperunt dictumque suum frequenter interrumpere dicentes, ut verba sua cum festinatione finiret, dictumque fuit illi:
                   <said who="#other" aloud="true" direct="true">
-                    "<cit type="biblicalOt">
+                    <cit type="biblicalOt">
                       <quote>Ubi non est auditus, non effundas sermonem, et importune <corr cert="high" resp="#MA">noli</corr> extolli in sapientia tua,</quote>
                       <bibl n="033" resp="#TS">(Ecclesiasticus 32:6)</bibl>
                     </cit>
@@ -375,10 +375,10 @@
                         <quote>Musica in luctu importuna narratio.</quote>
                         <bibl n="034" resp="#TS">(Ecclesiasticus 22:6)</bibl>
                       </cit>
-                  "</said>
+                  </said>
                   Cum autem senior vidisset, sibi denegari audientiam, et cognosceret, quia invito auditori nemo bene refert, dixit illis:
                   <said who="#other" aloud="true" direct="true">
-                    "<cit type="classical">
+                    <cit type="classical">
                       <quote>Inconsulta temeritas nescit expectare consilium,</quote>
                       <bibl n="035" resp="#AG">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
                       <biblScope unit="letter.line">85.28</biblScope>)</bibl>
@@ -395,7 +395,7 @@
                         <bibl n="037" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
                         <biblScope unit="line">653</biblScope>)</bibl>
                     </cit>
-                  "</said>
+                  </said>
                   et ita quasi confusus senior resedit.
                 </p>
                 <p n="2.13">Sed et multi ad aures Melibei aliter consulebant secreto, quam palam dicere vellent, immo palam aliud monstrabant.</p>
@@ -407,7 +407,7 @@
                         <bibl n="038" resp="#TS">(<author>Ovid</author>, <title>Remedia Amoris</title>,
                         <biblScope unit="line">277</biblScope>)</bibl>
                     </cit>
-                  "Nam Petrus Alfunsus dixit:
+                  Nam Petrus Alfunsus dixit:
                     <cit type="contMed">
                       <quote>'Ne properes ulli reddere mutuum boni vel mali, quia diutius expectabit te amicus, et diutius timebit te inimicus.'</quote>
                         <bibl n="039" resp="#TS">(<author>Peter Alfonsi</author>, <title>Disciplina Clericalis</title>,
@@ -420,7 +420,7 @@
                         <bibl n="040" resp="#TS">(Psalms 36:8)</bibl>
                     </cit>
                   Domine mi, nonne vis etiam meum consilium habere.
-                "</said>
+                </said>
               </p>
             </div>
             <div type="chapter" n="3">
@@ -429,7 +429,7 @@
                 <p n="3.1">
                   Qui respondens ait:
                   <said who="#melib" aloud="true" direct="true">
-                  "Tuo consilio uti minime proposui multis rationibus. Primo, quia pro stulto ab omnibus reputarer, si pro tuo consilio vel sensu mutarem quod est a tanta multitudine hominum stabilitum. 
+                  Tuo consilio uti minime proposui multis rationibus. Primo, quia pro stulto ab omnibus reputarer, si pro tuo consilio vel sensu mutarem quod est a tanta multitudine hominum stabilitum. 
                   Secunda ratione, quia mulieres malae sunt, nullaque bona reperitur, Salomone testante, qui dixit: 
                     <cit type="biblicalOt">
                       <quote>Virum de mille unum reperi, mulierem ex omnibus non inveni.</quote>
@@ -463,7 +463,7 @@
                         <bibl n="046" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>, 
                         <biblScope unit="line">365</biblScope>)</bibl>
                     </cit>
-                  "</said>
+                  </said>
                 </p>
             </div>
       </body>
