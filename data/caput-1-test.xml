@@ -127,7 +127,7 @@
             domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras 
             domus 
               <app>
-              <!--I need help here learning how to indicate an omission-->
+                <rdg wit="#D"><note type="editorial" resp="#TS">omitted</note></rdg>
               </app>     
             intrantes, uxorem Melibei, <name>Prudentiam</name> nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in 
             oculis, 
@@ -144,7 +144,7 @@
                   <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
                   <l>Ille dolor verbis emoderandus erit.</l>
                   </quote>
-                  <note place="foot">
+                  <note>
                     <author>Ovid</author>, <title>Remedia Amoris</title>,
                     127-130.
                   </note>
