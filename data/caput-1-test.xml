@@ -116,12 +116,11 @@
     </teiHeader>
     <text>
       <body>
-        <div type="chapter" n="1">
+        <div type="chapter" n="1" lang="la">
           <head>Caput I</head>
           <head>Exemplum in persona Melibei.</head>
-            <p n="1.1">Quidam juvenis, <name>Melibeus</name> nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso 
+            <p n="1.1">Quidam juvenis, <name>Melibeus</name> nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso ostio
               <app>
-                <lem>ostio</lem>
                 <rdg wit="#B">hostio</rdg>
               </app>
             domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras 
@@ -134,20 +133,31 @@
               <app>
                 <rdg wit="#D">oculis et aur</rdg>
               </app>
-            
-            auribus, ore et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
-            <p n="1.2"><name>Melibeus</name> vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
+            auribus, ore 
+              <app>
+                <rdg wit="#D"><note type="editorial" resp="#TS">omitted</note></rdg>
+              </app> et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
+            <p n="1.2"><name>Melibeus</name> vero post modum 
+              <app>
+                <rdg wit="#A2 #C #E">post modum vero</rdg>
+                <rdg wit="#D">vero primo domum</rdg>
+              </app>
+              reversus, hoc videns 
+                <app>
+                  <rdg wit="#A2">audiens</rdg>
+                </app>
+              coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
               <said who="#prud" aloud="false" direct="false">
-                <quote rend="blockquote" type="classical">
-                  <l>Quis matrem, nisi mentis inops, in funere nati</l>
-                  <l>Flere vetat? non hoc illa monenda loco est.</l>
-                  <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
-                  <l>Ille dolor verbis emoderandus erit.</l>
+                <cit type="classical">
+                  <quote rend="blockquote" type="classical">
+                    <l>Quis matrem, nisi mentis inops, in funere nati</l>
+                    <l>Flere vetat? non hoc illa monenda loco est.</l>
+                    <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
+                    <l>Ille dolor verbis emoderandus erit.</l>
                   </quote>
-                  <note>
-                    <author>Ovid</author>, <title>Remedia Amoris</title>,
-                    127-130.
-                  </note>
+                  <bibl n="001" resp="#TS"><author>Ovid</author>, <title>Remedia Amoris</title>,
+                      <biblScope unit="line" from="127" to="130">127-130</biblScope>.</bibl>
+                </cit>
               </said>
             </p>
         </div>
