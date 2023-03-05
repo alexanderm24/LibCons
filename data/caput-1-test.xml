@@ -147,7 +147,7 @@
                   <rdg wit="#A2">audiens</rdg>
                 </app>
               coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
-              <said who="#prud" aloud="false" direct="false">
+              <said who="#prud" aloud="true" direct="true">
                 <cit type="classical">
                   <quote rend="blockquote" type="classical">
                     <l>Quis matrem, nisi mentis inops, in funere nati</l>

@@ -352,14 +352,6 @@ tei-body > tei-head {
   text-indent: -0.5em;
 }
 
-tei-div[lang|="la"]{
-  float: left;
-}
-
-tei-div[lang|="en"]{
-  float: right;
-}
-
 tei-div.textpart {
   display: none;
 }
