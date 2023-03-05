@@ -168,7 +168,7 @@
                         eodem animo enim fert illorum mortem quo suam expectat.'
                       </quote>
                       <bibl n="004" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
-                      <biblScope unit="letter.line">74.30</biblScope>)</bibl>
+                      <biblScope unit="letter.line" from="74.30" to="74.30">74.30</biblScope>)</bibl>
                       <!--can dots be included in the value space? If not, command f and simplify to "letterline" or just letter-->
                     </cit>
                     <cit type="classical">
@@ -176,7 +176,7 @@
                         et quam primum id facere desiste, quod, etiam si voles, diu facere non poteris.'
                       </quote>
                         <bibl n="005" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
-                        <biblScope unit="letter.line">63.12</biblScope>)</bibl>
+                        <biblScope unit="letter.line" from="63.12" to="63.12">63.12</biblScope>)</bibl>
                     </cit>
                   </said>
                   </p>
@@ -200,19 +200,19 @@
                       <cit type="classical">
                         <quote type="classical">'Proprium est animi bene constituti, et laetari bonis rebus et dolere contrariis;'</quote>
                           <bibl n="008" resp="#TS">(<author>Cicero</author>, <title>De Amicitia</title>,
-                          <biblScope unit="letter.line">13.47</biblScope>)</bibl>
+                          <biblScope unit="letter.line" from="13.47" to="13.47">13.47</biblScope>)</bibl>
                       </cit>
                     plorare autem ac multas lacrimas fundere, prohibitum est. Modus vero a Seneca inventus est servandus, qui dixit:
                       <cit type="classical">
                         <quote type="classical">'Nec sicci sint oculi tui, amisso amico, nec fluant: lacrimandum est, et non plorandum.'</quote>
                           <bibl n="009" resp="#TS">(<author>Seneca</author>, <title>De Amicitia</title>,
-                          <biblScope unit="letter.line">63.1</biblScope>)</bibl>
+                          <biblScope unit="letter.line" from="63.1" to="63.1">63.1</biblScope>)</bibl>
                       </cit>
                     Ante vero quam amicum amittas, repara ipsum, si commode potes, nam ut idem ait:
                       <cit type="classical">
                         <quote type="classical">'Sanctius est amicum reparare quam flere.'</quote>
                           <bibl n="010" resp="#TS">(<author>Seneca</author>, <title>De Amicitia</title>,
-                          <biblScope unit="letter.line">63.11</biblScope>)</bibl>
+                          <biblScope unit="letter.line" from="63.1" to="63.1">63.11</biblScope>)</bibl>
                       </cit>
                     Ad hoc ergo ut prudenter vivas, tristitiam hujus seculi ab animo tuo omnino repellas, ait enim Jhesus Sirac:
                       <cit type="biblicalOt">
@@ -238,12 +238,12 @@
                       <cit type="classical">
                         <quote type="classical">'Nihil est stultius quam famam captare tristitiae et lacrimas approbare;'</quote>
                           <bibl n="015" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
-                          <biblScope unit="letter.line">99.18</biblScope>)</bibl>
+                          <biblScope unit="letter.line" from="99.18" to="99.18">99.18</biblScope>)</bibl>
                       </cit>
                       <cit type="classical">
                         <quote type="classical">'nihil enim sapienti viro accidere potest, quod eum contristet: stat rectus sub quolibet pondere,'</quote>
                           <bibl n="016" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
-                          <biblScope unit="letter.line">71.26</biblScope>)</bibl>
+                          <biblScope unit="letter.line" from="71.26" to="71.26">71.26</biblScope>)</bibl>
                       </cit>
                     sicut accidit in beato Job, qui cum omnes filios suos omnemque substantiam suam amisisset, insuper et multas in corpore suo tribulationes sustineret, semper stetit rectus ac semper Domino gratias agens dicebat:
                       <cit type="biblicalOt">
@@ -258,7 +258,7 @@
                       <cit type="classical">
                         <quote type="classical">'Nulla res citius ad odium venit quam dolor; recens dolor libenter ad se consolationem inducit, inveteratus vero deridetur, nec immerito: aut enim simulatus est aut stultus.'</quote>
                           <bibl n="019" resp="#TS">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
-                          <biblScope unit="letter.line">63.13</biblScope>)</bibl>
+                          <biblScope unit="letter.line" from="63.13" to="63.13">63.13</biblScope>)</bibl>
                       </cit>
                     Et certe tristitiam hujus seculi a te ideo repellere debes, quia verum est, quod beatus Paulus in Epistola secunda ad Corinthios circa medium dixit:
                       <cit type="biblicalNt">
@@ -316,19 +316,19 @@
                       <cit type="churchFa">
                         <quote type="churchFa">'omnia enim subita probantur incauta,'</quote>
                           <bibl n="025" resp="#TS">(<author>Cassiodorus</author>, <title>Variae</title>,
-                          <biblScope unit="book.letter.line">1.17.1</biblScope>)</bibl>
+                          <biblScope unit="book.letter.line" from="1.17.1" to="1.17.1">1.17.1</biblScope>)</bibl>
                       </cit>
                     et
                       <cit type="classical">
                         <quote type="classical">'in judicando criminosa est celeritas,'</quote>
                           <bibl n="026" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
-                          <biblScope unit="line">293</biblScope>)</bibl>
+                          <biblScope unit="line" from="293" to="293">293</biblScope>)</bibl>
                       </cit>
                     et
                       <cit type="classical">
                         <quote type="classical">'ad poenitendum properat qui cito judicat,</quote>
                           <bibl n="027" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
-                          <biblScope unit="line">32</biblScope>)</bibl>
+                          <biblScope unit="line" from="32" to="32">32</biblScope>)</bibl>
                       </cit>
                     quare <corr cert="high" resp="#MA">dici</corr> consuevit:
                       <cit>
@@ -339,13 +339,13 @@
                       <cit type="classical">
                         <quote type="classical">'Mora omnis odio est, sed facit sapientem,'</quote>
                           <bibl n="029" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
-                          <biblScope unit="line">352</biblScope>)</bibl>
+                          <biblScope unit="line" from="352" to="352">352</biblScope>)</bibl>
                       </cit>
                     quare, si super praedictis deliberare volumus, non est mirandum.
                       <cit type="classical">
                         <quote type="classical">'Deliberare enim utilia mora est tutissima;'</quote>
                           <bibl n="030" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
-                          <biblScope unit="line">151</biblScope>)</bibl>
+                          <biblScope unit="line" from="151" to="151">151</biblScope>)</bibl>
                       </cit>
                     dici enim vulgo consuevit:
                       <cit>
@@ -381,19 +381,19 @@
                     <cit type="classical">
                       <quote type="classical">Inconsulta temeritas nescit expectare consilium,</quote>
                       <bibl n="035" resp="#AG">(<author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
-                      <biblScope unit="letter.line">85.28</biblScope>)</bibl>
+                      <biblScope unit="letter.line" from="85.25" to="85.25">85.28</biblScope>)</bibl>
                     </cit>
                     et iterum:
                     <cit type="chruchFa">
                       <quote type="churchFa">'Consilium quippe mutare detractat improvidus;'</quote>
                         <bibl n="036" resp="#TS">(<author>Cassiodorus</author>, <title>Variae</title>,
-                        <biblScope unit="book.letter.line">10.4.3</biblScope>)</bibl>
+                        <biblScope unit="book.letter.line" from="10.4.3" to="10.4.3">10.4.3</biblScope>)</bibl>
                     </cit>
                     nunc certe cognosco verum, quod dici consuevit:
                     <cit type="classical">
                       <quote type="classical">'Semper consilium tunc deest, quando maxime opus est,'</quote>
                         <bibl n="037" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>,
-                        <biblScope unit="line">653</biblScope>)</bibl>
+                        <biblScope unit="line" from="653" to="653">653</biblScope>)</bibl>
                     </cit>
                   </said>
                   et ita quasi confusus senior resedit.
@@ -405,7 +405,7 @@
                     <cit rend="blockquote" type="classical">
                       <quote type="classical"><l>Ne properes oro, spatium pro munere posco.</l></quote>
                         <bibl n="038" resp="#TS">(<author>Ovid</author>, <title>Remedia Amoris</title>,
-                        <biblScope unit="line">277</biblScope>)</bibl>
+                        <biblScope unit="line" from="277" to="277">277</biblScope>)</bibl>
                     </cit>
                   Nam Petrus Alfunsus dixit:
                     <cit type="contMed">
@@ -455,13 +455,13 @@
                     <cit type="classical">
                       <quote type="classical">'Garrulitas mulierum id solum novit celare, quod nescit.'</quote>  
                         <bibl n="045" resp="#TS">(<author>Seneca Maior</author>, <title>Controversiis</title>, 
-                        <biblScope unit="XX">2.13.12</biblScope>)</bibl>
+                        <biblScope unit="XX" from="2.13.12" to="2.13.12">2.13.12</biblScope>)</bibl>
                     </cit>
                   Quinta denique ratione propter philosophi verbum, qui dixit: 
                     <cit type="classical">
                       <quote type="classical">'Malo in consilio feminae vincunt viros.'</quote>
                         <bibl n="046" resp="#TS">(<author>Publilius Syrus</author>, <title>Sententiae</title>, 
-                        <biblScope unit="line">365</biblScope>)</bibl>
+                        <biblScope unit="line" from="365" to="365">365</biblScope>)</bibl>
                     </cit>
                   </said>
                 </p>
