@@ -121,17 +121,17 @@
           <head>Example in the person of Melibeus</head>
             <p n="1.1">There once was a certain young man named Melibeus who was rich and powerful. One day he went for a walk, and after closing the front door he left his much-loved wife and daughter at home. Three neighbors, who were also long-established enemies of his, saw that he left and placing ladders entered the house through the windows. Having entered, they violently beat Melibeus’ wife, Prudentia, and also her daughter. They injured the daughter all over, specifically with five wounds: in the eyes, the ears, the mouth, the nose, and hands. Leaving her half-dead, they departed.</p>
             <p n="1.2">Melibeus returned after some time, and once he saw this scene he began to rip out his hair, to let forth an intense moan, and to rend his clothes as if insane. But his wife who had been silent began to upbraid him insistently; still he kept shouting evermore. Having remembered the words of Ovid in his Remedia Amoris, she offered him a little saying:
-              <said who="#prud" aloud="false" direct="false">
-                <quote rend="blockquote" type="classical">
-                  <l>Who save a fool would forbid a mother to weep o'er the body of her son?</l>
-                  <l>Not then must she be counselled.</l>
-                  <l>When she has shed tears and fulfilled her mind's distress,</l>
-                  <l>Then may words set a limit to that grief.</l>
-                </quote>
-                  <note place="foot">
-                    <author>Ovid</author>, <title>Remedia Amoris</title>,
-                    127-130.
-                  </note>
+              <said who="#prud" aloud="true" direct="true">
+                <cit type="classical">
+                  <quote rend="blockquote" type="classical">
+                    <l>Who save a fool would forbid a mother to weep o'er the body of her son?</l>
+                    <l>Not then must she be counselled.</l>
+                    <l>When she has shed tears and fulfilled her mind's distress,</l>
+                    <l>Then may words set a limit to that grief.</l>
+                  </quote>
+                  <bibl><biblScope n="001" resp="#TS"><author>Ovid</author>, <title>Remedia Amoris</title>,
+                      <biblScope unit="line" from="127" to="130">127-130</biblScope>.</bibl>
+                </cit>
               </said>
             </p>
         </div>
