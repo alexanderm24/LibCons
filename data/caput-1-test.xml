@@ -159,6 +159,32 @@
                       <biblScope unit="line" from="127" to="130">127-130</biblScope>.</bibl>
                 </cit>
               </said>
+
+                <said who="#prud" aloud="true" direct="true">
+                  <quote rend="blockquote" type="classical">
+                    <l>Quis matrem, nisi mentis inops, in funere nati</l>
+                    <l>Flere vetat? non hoc illa monenda loco est.</l>
+                    <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
+                    <l>Ille dolor verbis emoderandus erit.</l>
+                  </quote>
+                  <note>
+                    <bibl n="001" resp="#TS"><author>Ovid</author>, <title>Remedia Amoris</title>,
+                      <biblScope unit="line" from="127" to="130">127-130</biblScope>.
+                    </bibl>
+                  </note>
+                </said>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </p>
         </div>
         <div type="chapter" n="1" lang="en">
