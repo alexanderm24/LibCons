@@ -7,12 +7,19 @@
   <link rel="stylesheet" href="css/CETEIcean.css">
   <script src="js/CETEI.js"></script>
   <script src="js/liber.js"></script>
-
 </head>
+
 <body>
-<h1>TEI h1</h1>
-<div id="TEI"></div>
+  <h1>TEI h1</h1>
+  <div id="caput-1"></div>
+    <script>
+      var CETEIcean = new CETEI();
+      CETEIcean.getHTML5("data/liber.xml", function(data) {
+        document.getElementById("TEI").appendChild(data);
+      })
+    </script>
+
 
  
-
+</body>
 </html>
