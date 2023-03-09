@@ -116,96 +116,25 @@
     </teiHeader>
     <text>
       <body>
-        <div type="chapter" n="1" lang="la">
-          <head>Caput I</head>
-          <head>Exemplum in persona Melibei.</head>
-            <p n="1.1">Quidam juvenis, <name>Melibeus</name> nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso ostio
-              <app>
-                <rdg wit="#B">hostio</rdg>
-              </app>
-            domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras 
-            domus 
-              <app>
-                <rdg wit="#D"><note type="editorial" resp="#TS">omitted</note></rdg>
-              </app>     
-            intrantes, uxorem Melibei, <name>Prudentiam</name> nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in 
-            oculis, 
-              <app>
-                <rdg wit="#D">oculis et aur</rdg>
-              </app>
-            auribus, ore 
-              <app>
-                <rdg wit="#D"><note type="editorial" resp="#TS">omitted</note></rdg>
-              </app> et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
-            <p n="1.2"><name>Melibeus</name> vero post modum 
-              <app>
-                <rdg wit="#A2 #C #E">post modum vero</rdg>
-                <rdg wit="#D">vero primo domum</rdg>
-              </app>
-              reversus, hoc videns 
-                <app>
-                  <rdg wit="#A2">audiens</rdg>
-                </app>
-              coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
-              <said who="#prud" aloud="true" direct="true">
-                <cit type="classical">
-                  <quote rend="blockquote" type="classical">
-                    <l>Quis matrem, nisi mentis inops, in funere nati</l>
-                    <l>Flere vetat? non hoc illa monenda loco est.</l>
-                    <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
-                    <l>Ille dolor verbis emoderandus erit.</l>
-                  </quote>
-                  <bibl n="001" resp="#TS"><author>Ovid</author>, <title>Remedia Amoris</title>,
+            <div type="chapter" n="1">
+              <head>Caput I</head>
+              <head>Exemplum in persona Melibei.</head>
+                <p n="1.1">Quidam juvenis, Melibeus nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso ostio domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras domus intrantes, uxorem Melibei, Prudentiam nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in oculis, auribus, ore et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
+                <p n="1.2">Melibeus vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo Ovidii, De Remedio Amoris, qui dixit:
+                  <said who="#prud" aloud="true" direct="true">
+                    <quote type="classical" source="https://www.loebclassics.com/view/ovid-remedies_love/1929/pb_LCL232.187.xml #ovid-remedies_love" rend="blockquote">
+                      <l>Quis matrem, nisi mentis inops, in funere nati</l>
+                      <l>Flere vetat? non hoc illa monenda loco est.</l>
+                      <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
+                      <l>Ille dolor verbis emoderandus erit.</l>
+                    </quote>
+                    <note n="001" resp="#TS">
+                      <bibl id="ovid-remedies_love"><author>Ovid</author>, <title>Remedia Amoris</title>,
                       <biblScope unit="line" from="127" to="130">127-130</biblScope>.</bibl>
-                </cit>
-              </said>
-
-                <said who="#prud" aloud="true" direct="true">
-                  <quote rend="blockquote" type="classical">
-                    <l>Quis matrem, nisi mentis inops, in funere nati</l>
-                    <l>Flere vetat? non hoc illa monenda loco est.</l>
-                    <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
-                    <l>Ille dolor verbis emoderandus erit.</l>
-                  </quote>
-                  <note>
-                    <bibl n="001" resp="#TS"><author>Ovid</author>, <title>Remedia Amoris</title>,
-                      <biblScope unit="line" from="127" to="130">127-130</biblScope>.
-                    </bibl>
-                  </note>
-                </said>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            </p>
-        </div>
-        <div type="chapter" n="1" lang="en">
-          <head>Chapter I</head>
-          <head>Example in the person of Melibeus</head>
-            <p n="1.1">There once was a certain young man named Melibeus who was rich and powerful. One day he went for a walk, and after closing the front door he left his much-loved wife and daughter at home. Three neighbors, who were also long-established enemies of his, saw that he left and placing ladders entered the house through the windows. Having entered, they violently beat Melibeus’ wife, Prudentia, and also her daughter. They injured the daughter all over, specifically with five wounds: in the eyes, the ears, the mouth, the nose, and hands. Leaving her half-dead, they departed.</p>
-            <p n="1.2">Melibeus returned after some time, and once he saw this scene he began to rip out his hair, to let forth an intense moan, and to rend his clothes as if insane. But his wife who had been silent began to upbraid him insistently; still he kept shouting evermore. Having remembered the words of Ovid in his Remedia Amoris, she offered him a little saying:
-              <said who="#prud" aloud="true" direct="true">
-                <cit type="classical">
-                  <quote rend="blockquote" type="classical">
-                    <l>Who save a fool would forbid a mother to weep o'er the body of her son?</l>
-                    <l>Not then must she be counselled.</l>
-                    <l>When she has shed tears and fulfilled her mind's distress,</l>
-                    <l>Then may words set a limit to that grief.</l>
-                  </quote>
-                  <bibl n="001" resp="#TS"><author>Ovid</author>, <title>Remedia Amoris</title>,
-                      <biblScope unit="line" from="127" to="130">127-130</biblScope>.</bibl>
-                </cit>
-              </said>
-            </p>
-        </div>
+                    </note>
+                  </said>
+                </p>
+            </div>
       </body>
     </text>
   </TEI>

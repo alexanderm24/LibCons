@@ -97,8 +97,12 @@ tei-address[data-tei-rend~="block"], addresss[data-tei-rendition~="#block"] {
 tei-adminInfo {
   display: block;
 }
+tei-note{
+  display: none;
+}
+
 tei-app tei-note {
-  display: hidden;
+  display: none;
 }
 tei-appInfo {
   display: block;
@@ -142,7 +146,7 @@ tei-back {
 }
 tei-bibl[data-tei-rend~="block"], bibl[data-tei-rendition~="#block"] {
   display: block;
-  padding-left: 2em;
+  padding: 2em;
   text-indent: -2em;
 }
 tei-biblFull {
@@ -659,13 +663,19 @@ tei-quote[type|="biblicalNt"]{
   font-style: italic;
 }
 
-tei-quote[type|="biblicalNt"]:hover {
+tei-quote[type|="biblicalNt"]:hover + tei-note {
   background-color: yellow;
   font-weight: bold;
 }
 
+
 tei-quote[type|="biblicalOt"]{
   font-style: italic;
+}
+
+tei-quote[type|="biblicalOt"]:hover {
+  background-color: yellow;
+  font-weight: bold;
 }
 /*churchFa*/
 tei-quote[type|="churchFa"]:before{

@@ -120,7 +120,7 @@
           <ab>Quoniam multi sunt qui in adversitatibus et tribulationibus taliter affliguntur et deprimuntur, quod, 
             cum 
               <app>
-                <rdg wit="#B"><notetype="editorial" resp="#TS">omitted</note></rdg>
+                <rdg wit="#B"><note type="editorial" resp="#TS">omitted</note></rdg>
               </app>
             in se propter animi perturbationem nec 
             consilium 
@@ -157,23 +157,23 @@
                 <head>De consolatione.</head>
                   <p n="2.1">Cum autem vir a fletu aliquantulum cessasset animumque aegrum implevisset, coepit illum Prudentia monere dicens:
                     <said who="#prud" aloud="true" direct="true">
-                      <quote type="scMed" source="https://archive.org/details/pamphilusoulart00baudgoog/page/n167/mode/2up #pamphilus-love" rend="blockquote">
+                      <quote type="scMed" source="https://archive.org/details/pamphilusoulart00baudgoog/page/n167/mode/2up #pamphilus" rend="blockquote">
                         <l>Stulte cur insanis, quid te dolor urget inanis?</l>
                         <l>Acquirit gemitus praemia nulla tuus,</l>
                         <l>Temperet ergo tuum modus et prudentia fletum;</l>
                         <l>Terge tuas lacrimas; prospice quid facias.</l>
                       </quote>
                       <note n="002" resp="#TS">
-                        <bibl id="pamphilus-love"><title>Pamphilus de Amore</title>,
+                        <bibl id="pamphilus"><title>Pamphilus de Amore</title>,
                         <biblScope unit="line" from="463" to="466">463-466</biblScope>.</bibl>
                         <note type="editorial" resp="#MA">Graham's transcription notes the source as Panphilus rather than Pamphilus. Pamphilus de Amore, also referred to as Pamphilus, is a 12th century comedic Latin play in which the protagonist Pamphilus desires the virgin Galatea through a procuress, similar to the one in Ovid Amores Book 1.8. The play was most commonly used by young boys of the Middle Ages for the purpose of learning Latin.</note>
                       </note>
-                      <quote type="scMed" source="https://archive.org/details/pamphilusoulart00baudgoog/page/n183/mode/2up #pamphilus-love" rend="blockquote">
+                      <quote type="scMed" source="https://archive.org/details/pamphilusoulart00baudgoog/page/n183/mode/2up #pamphilus" rend="blockquote">
                         <l>Ut graviter doleat, non pertinet ad sapientem,</l>
                         <l>Cum dolor ad dominum praemia nulla ferat.</l>
                       </quote>
                       <note n="003" resp="#TS">
-                        <bibl id="pamphilus-love"><title>Pamphilus de Amore</title>,
+                        <bibl id="pamphilus"><title>Pamphilus de Amore</title>,
                         <biblScope unit="line" from="769" to="770">769-770</biblScope>.</bibl>
                       </note>
                     Filia tua, dante Domino, bene liberabitur; nam etsi mortua fuerit, non tamen te propter illam destruere debes. Ait enim Seneca:
@@ -207,7 +207,7 @@
                           <note type="editorial" resp="#MA">cf. Vulgate does not include “et”.</note>
                       </note>
                     Et etiam Tullius dixit:
-                      <quote type="classical" source="https://www.loebclassics.com/view/marcus_tullius_cicero-de_amicitia/1923/pb_LCL154.159.xml?result=3&rskey=Dz2QRm #cicero-de_amicitia">'Proprium est animi bene constituti, et laetari bonis rebus et dolere contrariis;'</quote>
+                      <quote type="classical" source="https://www.loebclassics.com/view/marcus_tullius_cicero-de_amicitia/1923/pb_LCL154.159.xml?result=3&amp;rskey=Dz2QRm #cicero-de_amicitia">'Proprium est animi bene constituti, et laetari bonis rebus et dolere contrariis;'</quote>
                       <note n="008" resp="#TS">
                         <bibl id="cicero-de_amicitia"><author>Cicero</author>, <title>De Amicitia</title>,
                         <biblScope unit="letter.line" from="13.47" to="13.47">13.47</biblScope>.</bibl>
@@ -281,7 +281,7 @@
                         <note n="020" resp="#TS">
                           <bibl id="bible_2corinthians">2 Corinthians 7:10.</bibl>
                             <note type="editorial" resp="#MA">Albertano maintains the exact words from the Vulgate but switches the order of the clauses to provide a smooth transition from Seneca’s previous statement about grief to be contrasted with godly grief.</note>
-                        </quote>
+                        </note>
                     et ideo eam a te nullo modo repellas, sed potius die noctuque studeas habere, quia postea
                       <quote type="biblicalNt" source="#bible_john">convertetur in gaudium,</quote>
                       <note n="021" resp="#TS">
@@ -290,7 +290,7 @@
                     ut Dominus in Evangelio dixit. Unde Salomon ait:
                       <quote type="biblicalOt" source="#bible_ecclesiastes">Cor sapientium est ubi tristitia, et cor stultorum ubi laetitia.</quote>
                       <note n="022" resp="#TS">
-                        <bibl id="bible_ecclesiastes">Ecclesiastes 7:5.</bible>
+                        <bibl id="bible_ecclesiastes">Ecclesiastes 7:5.</bibl>
                           <note type="editorial" resp="#MA">(NRSV 7:4); NRSV specifies “house of” where Albertano and Vulgate use a general place, “ubi.”</note>
                       </note>
                     Et iterum:
@@ -338,13 +338,13 @@
                           <biblScope unit="book.letter.line" from="1.17.1" to="1.17.1">1.17.1</biblScope>.</bibl>
                       </note>
                     et
-                      <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.53.xml?mainRsKey=wNIRNE&result=1&rskey=lJIxKC #publilius_syrus-sententiae">'in judicando criminosa est celeritas,'</quote>
+                      <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.53.xml?mainRsKey=wNIRNE&amp;result=1&amp;rskey=lJIxKC #publilius_syrus-sententiae">'in judicando criminosa est celeritas,'</quote>
                       <note n="026" resp="#TS">
                         <bibl id="publilius_syrus-sententiae"><author>Publilius Syrus</author>, <title>Sententiae</title>,
                         <biblScope unit="line" from="293" to="293">293</biblScope>.</bibl>
                       </note>
                     et
-                      <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.19.xml?mainRsKey=wNIRNE&result=1&rskey=lJIxKC #publilius_syrus-sententiae">'ad poenitendum properat qui cito judicat,</quote>
+                      <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.19.xml?mainRsKey=wNIRNE&amp;result=1&amp;rskey=lJIxKC #publilius_syrus-sententiae">'ad poenitendum properat qui cito judicat,</quote>
                       <note n="027" resp="#TS">
                         <bibl id="publilius_syrus-sententiae"><author>Publilius Syrus</author>, <title>Sententiae</title>,
                         <biblScope unit="line" from="32" to="32">32</biblScope>.</bibl>
@@ -355,13 +355,13 @@
                         <bibl>origin unknown.</bibl>
                       </note>
                     nam licet mora omnis odio sit, non tamen in judicando mora competens est reprobanda; scriptum est enim:
-                      <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.61.xml?mainRsKey=wNIRNE&result=1&rskey=lJIxKC #publilius_syrus-sententiae">'Mora omnis odio est, sed facit sapientem,'</quote>
+                      <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.61.xml?mainRsKey=wNIRNE&amp;result=1&amp;rskey=lJIxKC #publilius_syrus-sententiae">'Mora omnis odio est, sed facit sapientem,'</quote>
                       <note n="029" resp="#TS">
                         <bibl id="#publilius_syrus-sententiae"><author>Publilius Syrus</author>, <title>Sententiae</title>,
                         <biblScope unit="line" from="352" to="352">352</biblScope>.</bibl>
                       </note>
                     quare, si super praedictis deliberare volumus, non est mirandum.
-                      <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.35.xml?mainRsKey=wNIRNE&result=1&rskey=lJIxKC #publilius_syrus-sententiae">'Deliberare enim utilia mora est tutissima;'</quote>
+                      <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.35.xml?mainRsKey=wNIRNE&amp;result=1&amp;rskey=lJIxKC #publilius_syrus-sententiae">'Deliberare enim utilia mora est tutissima;'</quote>
                       <note n="030" resp="#TS">
                         <bibl id="publilius_syrus-sententiae"><author>Publilius Syrus</author>, <title>Sententiae</title>,
                         <biblScope unit="line" from="151" to="151">151</biblScope>.</bibl>
@@ -387,12 +387,13 @@
                     <quote type="biblicalOt" source="#bible_ecclesiasticus">Ubi non est auditus, non effundas sermonem, et importune <corr cert="high" resp="#MA">noli</corr> extolli in sapientia tua,</quote>
                     <note n="033" resp="#TS">
                       <bibl id="bible_ecclesiasticus">Ecclesiasticus 32:6.</bibl>
-                  importuna est enim narratio tua, quia tibi non praebetur auditus, et est quasi <quote type="exeg">musica in luctu</quote>;
-                  ait enim Jhesus Sirac:
+                    </note>
+                    importuna est enim narratio tua, quia tibi non praebetur auditus, et est quasi <quote type="exeg">musica in luctu</quote>;
+                    ait enim Jhesus Sirac:
                     <quote type="biblicalOt" source="#bible_ecclesiasticus">Musica in luctu importuna narratio.</quote>
                     <note n="034" resp="#TS">
                       <bibl id="bible_ecclesiasticus">Ecclesiasticus 22:6.</bibl>
-                    <note>
+                    </note>
                   </said>
                   Cum autem senior vidisset, sibi denegari audientiam, et cognosceret, quia invito auditori nemo bene refert, dixit illis:
                   <said who="#other" aloud="true" direct="true">
@@ -408,7 +409,7 @@
                       <biblScope unit="book.letter.line" from="10.4.3" to="10.4.3">10.4.3</biblScope>.</bibl>
                     </note>
                   nunc certe cognosco verum, quod dici consuevit:
-                    <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.101.xml?mainRsKey=wNIRNE&result=1&rskey=lJIxKC #publilius_syrus-sententiae">'Semper consilium tunc deest, quando maxime opus est,'</quote>
+                    <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.101.xml?mainRsKey=wNIRNE&amp;result=1&amp;rskey=lJIxKC #publilius_syrus-sententiae">'Semper consilium tunc deest, quando maxime opus est,'</quote>
                     <note n="037 resp=#TS">
                       <bibl id="publilius_syrus-sententiae"><author>Publilius Syrus</author>, <title>Sententiae</title>,
                       <biblScope unit="line" from="653" to="653">653</biblScope>.</bibl>
@@ -477,7 +478,7 @@
                         <!--Unit!!-->
                       </note>
                   Quinta denique ratione propter philosophi verbum, qui dixit: 
-                    <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.63.xml?mainRsKey=wNIRNE&result=1&rskey=lJIxKC #publilius_syrus-sententiae">'Malo in consilio feminae vincunt viros.'</quote>
+                    <quote type="classical" source="https://www.loebclassics.com/view/publilius_syrus-sententiae/1934/pb_LCL284.63.xml?mainRsKey=wNIRNE&amp;result=1&amp;rskey=lJIxKC #publilius_syrus-sententiae">'Malo in consilio feminae vincunt viros.'</quote>
                     <note n="046" resp="#TS">
                         <bibl id="publilius_syrus-sententiae"><author>Publilius Syrus</author>, <title>Sententiae</title>, 
                         <biblScope unit="line" from="365" to="365">365</biblScope>.</bibl>
