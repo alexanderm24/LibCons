@@ -136,8 +136,8 @@
             <div type="chapter" n="1">
               <head>Caput I</head>
               <head>Exemplum in persona Melibei.</head>
-                <p n="1.1">Quidam juvenis, Melibeus nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso ostio domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras domus intrantes, uxorem Melibei, Prudentiam nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in oculis, auribus, ore et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
-                <p n="1.2">Melibeus vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo Ovidii, De Remedio Amoris, qui dixit:
+                <p n="1.1">Quidam juvenis, <name>Melibeus</name> nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso ostio domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras domus intrantes, uxorem Melibei, <name>Prudentiam</name> nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in oculis, auribus, ore et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
+                <p n="1.2">Melibeus vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
                   <said who="#prud" aloud="true" direct="true">
                     <quote type="classical" source="https://www.loebclassics.com/view/ovid-remedies_love/1929/pb_LCL232.187.xml #ovid-remedies_love" rend="blockquote">
                       <l>Quis matrem, nisi mentis inops, in funere nati</l>
