@@ -22,13 +22,77 @@ a:link{
 
 }
 
+/*menu button*/
+#menubutton {
+  background-color: #914631;
+  color: white;
+  width: 10rem;
+  height: 3.25rem;
+}
+
 /*search bar TBD*/
 
 /*sticky language header*/
-#lang {
+#sticky {
   background-color: white;
   border-bottom: solid #ccc;
   position: sticky;
+}
+
+#langnav {
+  font-size: 1.25rem;
+  background-color: white;
+  padding-top: 6px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  background-color: #ccc;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+#left {
+  font-size: 1.15rem;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  background-color: #ccc;
+  border-top-left-radius: 4px;
+}
+
+#right {
+  font-size: 1.15rem;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  background-color: #ccc;
+  border-top-right-radius: 4px;
+}
+
+#chapters-menu {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  font-size: 1.25rem;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  background-color: #ccc;
+}
+
+/*column formatting*/
+#Latin {
+  padding-left: 4rem;
+  padding-right: 2rem;
+  border-right: solid #ccc;
+
+}
+
+#English {
+  padding-right: 4rem;
+  padding-left: 2rem;
 }
 
 /*blockquote*/
@@ -39,6 +103,13 @@ blockquote {
   line-height: normal;
 }
 
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+
 /*fleuron note*/
 .note {
   size:1rem;
@@ -46,14 +117,6 @@ blockquote {
 
 .note:hover {
   transition: border-color 1s, box-shadow 0.5s;
-}
-
-/*menu button*/
-#menubutton {
-  background-color: #914631;
-  color: white;
-  width: 10rem;
-  height: 3.25rem;
 }
 
 /*directory buttons*/
@@ -115,7 +178,7 @@ blockquote {
 
 /*language buttons*/
 .langBtn {
-  text-align: center;
+  vertical-align: center;
   background-color: #ccc;
   width: 8rem;
   height: 2.5em;
@@ -124,6 +187,7 @@ blockquote {
 
 /*control buttons (previous and next)*/
 .ctrBtn {
+  display: inline-block;
   text-align: center;
   background-color: #ccc;
   width: 3rem;

@@ -14,9 +14,9 @@
     <!--Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!--CSS-->
+    <link rel="stylesheet" href="css/CETEIcean.css">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <!--JS stuff-->
-    <link rel="stylesheet" href="css/CETEIcean.css">
     <script src="js/CETEI.js"></script>
     <script src="js/liber.js"></script>
 </head>
@@ -48,10 +48,43 @@
       </div>
     </nav>
 	  <!--Text-->
-	  <section class="container py-3 ps-3">
-      <div class="row">
+	  <section class="container pt-3 ps-3">
+      <!--Sticky top that includes the chapter, language switch boxes, TEI, and language nav-->
+      <div class="fixed-top" id="sticky">
+        <div class="row py-3">
+          <div class="col">
+            <h2>Caput I</h2>
+          </div>
+          <div class="col offset-6">
+            <!--Latin Switch-->
+            <div class="form-check form-check-inline" data-toggle="collapse.show" data-target="#Latin" checked>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Latin</label>
+            </div>
+            <!--English Switch-->
+            <div class="form-check form-check-inline" data-toggle="collapse.show" data-target="#English" checked>
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">English</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-evenly">
+            <div id="langnav">Latin</div>
+
+            <ul class="d-flex justify-content-center">
+              <li id="left"><img src="images/arrow-left.svg"></li>
+              <li id="chapters-menu">Chapters</li>
+              <li id="right"><img src="images/arrow-right.svg"></li>
+            </ul>
+            
+            <div id="langnav">English</div>
+          </div>
+
+      </div>
+      <div class="row py-3">
         <!--Column for Latin-->
-        <div class="col-6">
+        <div class="col-6"  id="Latin">
           <div id="caput-1"></div>
         
           <script>
@@ -62,7 +95,7 @@
           </script>
         </div>
         <!--Column for English-->
-        <div class="col-6">
+        <div class="col-6" id="English">
           <div id="chapter-1"></div>
         
           <script>
