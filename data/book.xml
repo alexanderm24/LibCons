@@ -115,7 +115,21 @@
     <revisionDesc><!--to be used in the future when edits are made AFTER our first trial run is completed--></revisionDesc>
     </teiHeader>
     <text>
-        <body>
+      <body>
+        <div type="en-prologue" n="0">
+          <head><title>Beginning of the Book of Consolation and Counsel.</title></head>
+          <ab>Since there are many who are so afflicted by adversities and weighed down in tribulations, and
+              since they have neither counsel nor consolation on account of their disturbed souls—nor do they
+              expect counsel or consolation from others—they become so distraught that they fall into worse,
+              often evil, circumstances. For this reason, I took carei to write down certain teachings for you,
+              Johannus, my son, who heals with the art of surgery. God granting, from the little measure of my
+              knowledge, you will not only be able to grant health to physical bodies, but you will even be able
+              to bless others with counsel, consolation, and aid. Therefore, may you read the following tale
+              zealously and ponder each of the written authorities diligently, and so, with divine grace
+              bestowing, you will easily lead yourself and others in practicing good counsel. Here begins the
+              tale.
+          </ab>
+        </div>
         <div type="chapter" n="1">
           <head id="chapter-number">Chapter I</head>
           <head>Example in the person of Melibeus.</head>

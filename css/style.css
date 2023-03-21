@@ -82,6 +82,8 @@ a:link{
   background-color: #ccc;
 }
 
+#chapters-menu > a { color: inherit; }
+
 /*column formatting*/
 #Latin {
   padding-left: 3rem;
