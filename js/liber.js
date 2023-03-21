@@ -2,7 +2,7 @@
 var CETEIcean = new CETEI();
 CETEIcean.getHTML5("data/liber.xml", function (data) {
 
-const chapter = document.getElementByTag("la-prologue");
+const chapter = document.getElementById("la-prologue");
 
   for (const n of Array.from(data.getElementsByTagName("tei-div")))
   {
