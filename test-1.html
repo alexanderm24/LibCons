@@ -19,6 +19,8 @@
     <!--JS stuff-->
     <script src="js/CETEI.js"></script>
     <script src="js/liber.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body class="d-flex flex-column min-vh-100">
     <!--Navbar-->
@@ -85,7 +87,7 @@
       <div class="row py-3">
         <!--Column for Latin-->
         <div class="col-6"  id="Latin">
-          <div id="caput-1"></div>
+          <div id="caput-2"></div>
         
           <script>
           var CETEIcean = new CETEI();
@@ -93,10 +95,23 @@
           document.getElementById("TEI").appendChild(data);
           })
           </script>
+          <div class="container">
+            <a href="#" data-container="body" data-toggle="popover" data-trigger="focus">
+              <span class="margin" style="color:#314175">&#10086;</span>
+            </a>
+          </div>
+  
+          <script>
+            $(document).ready(function(){
+              $('[data-toggle="popover"]').on('click', function(e) {e.preventDefault(); return true;});
+              $('[data-toggle="popover"]').popover({title: "001 Source", content: "Ovid, Remedia Amoris, 127-130.",animation: true});
+            });
+          </script>
+
         </div>
         <!--Column for English-->
         <div class="col-6" id="English">
-          <div id="chapter-1"></div>
+          <div id="chapter-2"></div>
         
           <script>
           var CETEIcean = new CETEI();

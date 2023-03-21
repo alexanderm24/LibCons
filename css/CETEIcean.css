@@ -664,62 +664,76 @@ tei-q[data-tei-next]:after {
 tei-q[data-tei-prev]:before {
   content: "" !important;
 }
+
 /*quote styles are done according to quote types*/
 
 /*biblical*/
 tei-quote[type|="biblicalNt"]{
   font-style: italic;
 }
-
-tei-quote[type|="biblicalNt"]:hover + tei-note {
-  background-color: yellow;
-  font-weight: bold;
+tei-quote[type|="biblicalNt"]:hover{
+  background-color: #FFF9A6;
 }
-
 
 tei-quote[type|="biblicalOt"]{
   font-style: italic;
 }
-
 tei-quote[type|="biblicalOt"]:hover {
-  background-color: yellow;
-  font-weight: bold;
+  background-color: #FFF9A6;
 }
+
 /*churchFa*/
 tei-quote[type|="churchFa"]:before{
-  content:open-quote;
+  content:none;
 }
 tei-quote[type|="churchFa"]:after{
-  content:close-quote;
+  content:none;
 }
+tei-quote[type|="churchFa"]:hover{
+  background-color: #FFF9A6;
+}
+
 /*classical*/
 tei-quote[type|="classical"]:before{
-  content:open-quote;
+  content:none;
 }
 tei-quote[type|="classical"]:after{
-  content:close-quote;
+  content:none;
 }
+tei-quote[type|="classical"]:hover{
+  background-color: #FFF9A6;
+}
+
 /*medieval*/
 /*contMed*/
 tei-quote[type|="contMed"]:before{
-  content:open-quote;
+  content:none;
 }
 tei-quote[type|="contMed"]:after{
-  content:close-quote;
+  content:none;
+}
+tei-quote[type|="contMed"]:hover{
+  background-color: #FFF9A6;
 }
 /*lawMed*/
 tei-quote[type|="lawMed"]:before{
-  content:open-quote;
+  content:none;
 }
 tei-quote[type|="lawMed"]:after{
-  content:close-quote;
+  content:none;
+}
+tei-quote[type|="lawMed"]:hover{
+  background-color: #FFF9A6;
 }
 /*scMed*/
 tei-quote[type|="scMed"]:before{
-  content:open-quote;
+  content:none;
 }
 tei-quote[type|="scMed"]:after{
-  content:close-quote;
+  content:none;
+}
+tei-quote[type|="scMed"]:hover{
+  background-color: #FFF9A6;
 }
 
 
@@ -739,9 +753,10 @@ tei-recordhist {
   margin-bottom: 1em;
 }
 tei-ref {
+  font-size: .75rem;
   color: #5f0000;
-  text-decoration: underline;
-  cursor: pointer;
+  text-decoration: none;
+  vertical-align:super;
 }
 tei-remarks {
   font-weight: bold;
@@ -766,11 +781,11 @@ tei-row {
 
 /* s */
 tei-said:before{
-  content: open-quote;
+  content: none;
 }
 
 tei-said:after{
-  content: close-quote;
+  content: none;
 }
 
 tei-salute {
@@ -904,6 +919,7 @@ tei-surplus>*:last-child:after {
   content: "]\a\a";
   white-space: pre;
 }
+
 /* t */
 tei-tei {
   display: block;
