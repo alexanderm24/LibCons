@@ -24,10 +24,16 @@ a:link{
 
 /*menu button*/
 #menubutton {
+  font-size: 20px;
   background-color: #914631;
   color: white;
   width: 10rem;
   height: 3.25rem;
+  border: 0;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 /*search bar TBD*/
@@ -89,7 +95,6 @@ a:link{
   padding-left: 3rem;
   padding-right: 2rem;
   border-right: 1px solid #ccc;
-
 }
 
 #English {
@@ -178,13 +183,27 @@ ul {
   color: white;
 }
 
-/*xml button*/
+/*download xml button*/
 #xmlButton {
   background-color: #404d7a;
   border: none;
   border-radius: 4px;
   color: white;
   width: 8.25rem;
+  height: 2.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+/*small xml button*/
+#xmlButtonSm {
+  background-color: #404d7a;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  width: 4.125rem;
   height: 2.25rem;
   text-align: center;
   text-decoration: none;
