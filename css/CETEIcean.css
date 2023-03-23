@@ -738,10 +738,19 @@ tei-quote[type|="scMed"]:after{
 tei-quote[type|="scMed"]:hover{
   background-color: #FFF9A6;
 }
-tei-quote[type|="scMed"] > tei-l:hover{
-  background-color: #FFF9A6;
+
+/*Blockquote rendering (for verses of poetry as seen in classical and medeival poetry*/
+tei-quote[rend|="blockquote"] {
+  display:block;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+/*exegetical*/
+tei-quote[type|="exeg"] {
+  text-decoration: underline;
+  color: black;
+}
 
 /* r */
 tei-app tei-rdg {
@@ -789,7 +798,6 @@ tei-row {
 tei-said:before{
   content: none;
 }
-
 tei-said:after{
   content: none;
 }

@@ -138,7 +138,7 @@
               <said who="#prud" aloud="true" direct="true">
                 <quote type="classical" rend="blockquote">
                   <l>Who save a fool would forbid a mother to weep</l>
-                  <l>O'er the body of her son? Not then must she be counselled.</l>
+                  <l>O’er the body of her son? Not then must she be counselled.</l>
                   <l>When she has shed tears and fulfilled her mind's distress,</l>
                   <l>Then may words set a limit to that grief.</l>
                 </quote>
@@ -184,7 +184,7 @@
                         <bibl id="seneca_younger-epistles"><author>Seneca</author>, <title>Ad Lucilium Epistulae Morales</title>,
                         <biblScope unit="letter.line" from="63.12" to="63.12">63.12</biblScope>.</bibl>”
                       </note>
-                  </said>
+                  ”</said>
                   </p>
                   <p n="2.2">Melibeus responded:
                     <said who="#melib" aloud="true" direct="true">
@@ -307,7 +307,7 @@
                   <p n="2.5"> And she said:
                     <said who="#prud" aloud="true" direct="true">
                     “Call together your true and faithful friends, whether blood kin or not, and diligently seek their counsel about this matter, and then steer yourself according to their counsel. For Solomon says:
-                      <quote type="biblicalOt" source="#bible_ecclesiasticus">Do thou nothing without counsel, and He shall not punish thee.</quote>
+                      <quote type="biblicalOt" source="#bible_ecclesiasticus">Do thou nothing without counsel, and He shall not punish thee.</quote>”
                       <note n="024" resp="#TS">
                         <bibl id="bible_ecclesiasticus">Ecclesiasticus 32:24.</bibl>
                       </note>
@@ -322,7 +322,7 @@
                   </p>
                   <p n="2.8">After the surgeon spoke, one of the physicians offered him counsel in a similar fashion with the will of his colleagues. He promised Melibeus medical help and on behalf of himself and the other physicians. Concerning feud and vendetta he said:
                     <said who="#other" aloud="true" direct="true">
-                    “Because just as we say in medicine afflictions are healed by their opposites, so too in feud and even vendetta, afflictions are thend to be healed by their opposites.”
+                    “Because just as we say in medicine afflictions are healed by their opposites, so too in feud and even vendetta, afflictions are then to be healed by their opposites.”
                     </said>
                   </p>
                   <p n="2.9">Melibeus’ neighbors and former enemies—those who had returned in gratitude for him—and the sycophants and flatterers all wore grief on their faces, almost weeping about that which had happened. They counselled him to pursue vendetta within reason and to settle the feud manfully. They commended lord  Melibeus both for his power and his wealth, and they numbered the multitude of his kin both of blood and not, of his in-laws and of his friends. They diminished the power of his enemies over him and destroyed their wealth with words.
