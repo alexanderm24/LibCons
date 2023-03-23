@@ -139,9 +139,9 @@
                       <l>Quis matrem, nisi mentis inops, in funere nati</l>
                       <l>Flere vetat? non hoc illa monenda loco est.</l>
                       <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
-                      <l>Ille dolor verbis emoderandus erit.<ref target="n.001" class="superscript">1</ref></l>
+                      <l>Ille dolor verbis emoderandus erit.<ref target="#n001">1</ref></l>
                     </quote>
-                    <note id="#n.001" n="001" resp="#TS">
+                    <note id="n001" n="001" resp="#TS">
                       <bibl id="ovid-remedies_love"><author>Ovid</author>, <title>Remedia Amoris</title>,
                       <biblScope unit="line" from="127" to="130">127-130</biblScope>.</bibl>
                     </note>

@@ -30,7 +30,7 @@ tei-choice tei-sic + tei-corr:before,
 tei-choice tei-corr + tei-sic:before,
 tei-choice tei-orig + tei-reg:before,
 tei-choice tei-reg + tei-orig:before {
-  content: " (";
+  content: "(";
 }
 tei-choice tei-abbr + tei-expan:after,
 tei-choice tei-expan + tei-abbr:after,
@@ -97,13 +97,7 @@ tei-address[data-tei-rend~="block"], addresss[data-tei-rendition~="#block"] {
 tei-adminInfo {
   display: block;
 }
-tei-note{
-  display: none;
-}
 
-tei-app tei-note {
-  display: none;
-}
 tei-appInfo {
   display: block;
 }
@@ -149,6 +143,7 @@ tei-bibl[data-tei-rend~="block"], bibl[data-tei-rendition~="#block"] {
   padding: 2em;
   text-indent: -2em;
 }
+
 tei-biblFull {
   display: block;
 }
@@ -576,6 +571,18 @@ tei-name {
 tei-node {
   display: none;
 }
+
+/*note*/
+
+tei-note {
+  display: none;
+  position: absolute;
+  font-family: 'junicode';
+  background-color: #FCF5E5;
+  border: 1px solid #553E36;
+  padding: 1em;
+}
+
 tei-notesstmt {
   display: none;
 }
@@ -769,10 +776,18 @@ tei-recordhist {
 }
 tei-ref {
   font-size: .75rem;
-  color: #5f0000;
   text-decoration: none;
   vertical-align:super;
 }
+
+tei-ref:hover + tei-note {
+  display: block;
+  position: absolute;
+  font-family: 'junicode';
+  background-color: #FCF5E5;
+  border: 1px solid #553E36;
+}
+
 tei-remarks {
   font-weight: bold;
 }
@@ -892,9 +907,6 @@ tei-sourcedesc {
 tei-space:before {
   font-weight: bold;
   content: "";
-}
-tei-span[data-tei-data-n]:before {
-  content: attr(data-n);
 }
 tei-speaker {
   font-weight: bold;

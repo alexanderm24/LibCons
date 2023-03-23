@@ -113,6 +113,7 @@
         </langUsage>
     </profileDesc>
     <revisionDesc><!--to be used in the future when edits are made AFTER our first trial run is completed--></revisionDesc>
+    <script src="js/test.js"></script>
     </teiHeader>
     <text>
       <body>
@@ -128,7 +129,7 @@
                       <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
                       <l>Ille dolor verbis emoderandus erit.</l>
                     </quote>
-                    <note n="001" resp="#TS">
+                    <note n="001" resp="#TS" onclick="myFunction()">
                       <bibl id="ovid-remedies_love"><author>Ovid</author>, <title>Remedia Amoris</title>,
                       <biblScope unit="line" from="127" to="130">127-130</biblScope>.</bibl>
                     </note>
