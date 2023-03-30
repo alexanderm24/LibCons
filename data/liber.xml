@@ -133,15 +133,15 @@
               <head id="chapter-number">Caput I</head>
               <head>Exemplum in persona Melibei.</head>
                 <p n="1.1">Quidam juvenis, <name>Melibeus</name> nomine, vir potens et dives, relinquens uxorem et filiam in domo, quas multum diligebat, clauso ostio domus, ivit spatiatum. Tres vero sui vicini et hostes antiqui hoc videntes, appositis scalis ac per fenestras domus intrantes, uxorem Melibei, <name>Prudentiam</name> nomine, verberaverunt fortiter et, filiae ejus plagis quinque appositis, videlicet in oculis, auribus, ore et naso ac manibus, illamque semivivam relinquentes, abierunt.</p>
-                <p n="1.2">Melibeus vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
+                <p n="1.2"><name>Melibeus</name> vero post modum reversus, hoc videns coepit magno planctu flendo comas sibi dilaniare vestesque suas quasi more furiosi dilacerare. Uxor autem jam dicta, ut taceret, coepit illum instanter ammonere. Ille vero semper plus clamabat; at illa distulit aliquantulum recordatade verbo <name>Ovidii</name>, <title>De Remedio Amoris</title>, qui dixit:
                   <said who="#prud" aloud="true" direct="true">
                     <quote type="classical" source="https://www.loebclassics.com/view/ovid-remedies_love/1929/pb_LCL232.187.xml #ovid-remedies_love" rend="blockquote">
                       <l>Quis matrem, nisi mentis inops, in funere nati</l>
                       <l>Flere vetat? non hoc illa monenda loco est.</l>
                       <l>Cum dederit lacrimas animumque impleverit aegrum,</l>
-                      <l>Ille dolor verbis emoderandus erit.<ref target="#n001">1</ref></l>
+                      <l>Ille dolor verbis emoderandus erit.</l>
                     </quote>
-                    <note id="n001" n="001" resp="#TS">
+                    <note n="001" resp="#TS">
                       <bibl id="ovid-remedies_love"><author>Ovid</author>, <title>Remedia Amoris</title>,
                       <biblScope unit="line" from="127" to="130">127-130</biblScope>.</bibl>
                     </note>

@@ -117,6 +117,22 @@ ul {
   padding: 0;
 }
 
+/*fleuron about page*/
+a[class|="bluefleuron"] {
+  text-decoration: none;
+  color:#314175;
+}
+a[class|="redfleuron"] {
+  text-decoration: none;
+  color:#914631;
+  text-indent: 10px;
+}
+
+/*indent about page*/
+li .indent {
+  list-style-position: inside;
+  }
+
 /*popover*/
 .popover {
   font-family: 'junicode';
