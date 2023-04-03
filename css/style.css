@@ -1,8 +1,33 @@
-
 body {
   background-color: white;
   font-family: 'junicode-expanded';
   font-size: 1.125rem;
+}
+
+table {
+  display: inline-table;
+  width: 700px;
+  text-indent: 3rem;
+}
+
+h2 #subtitle {
+  text-indent: none;
+}
+
+.about {
+  text-indent: -1rem;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+#contribution {
+  width: 180px;
+}
+
+.acknowledge {
+  margin-left: 50px;
 }
 
 /*caption formatting*/

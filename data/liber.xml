@@ -153,7 +153,7 @@
                 <head>De consolatione.</head>
                   <p n="2.1">Cum autem vir a fletu aliquantulum cessasset animumque aegrum implevisset, coepit illum Prudentia monere dicens:
                     <said who="#prud" aloud="true" direct="true">
-                      <quote type="scMed" source="https://archive.org/details/pamphilusoulart00baudgoog/page/n167/mode/2up #pamphilus" rend="blockquote">
+                      <quote n="002" type="scMed" source="https://archive.org/details/pamphilusoulart00baudgoog/page/n167/mode/2up #pamphilus" rend="blockquote">
                         <l>Stulte cur insanis, quid te dolor urget inanis?</l>
                         <l>Acquirit gemitus praemia nulla tuus,</l>
                         <l>Temperet ergo tuum modus et prudentia fletum;</l>

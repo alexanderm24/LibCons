@@ -48,33 +48,37 @@
     <section class="container p-5">
         <h1>About</h1>
         <div class="row">
-            <div class="col-8"> 
+            <div class="col-8">
                 <p>The Liber Consolationis Digital Archive is an ongoing research project by undergraduate students of Washington and Lee University 
                 under the direction of Melissa Vise, Assistant Professor of History, and Mackenzie Brooks, Associate Professor and Digital Humanities Librarian. 
                 The project welcomes a breadth of interests including (but not limited to) medieval history and literature, classics, digital humanities, data science and coding.</p>
                 <p>The project aims to preserve and present <em>Liber Consolationis et Consilii</em> in a more comprehensive and interactive format with <a href="https://tei-c.org/" target="_blank">Text Encoding Initiative</a> (TEI). 
                 Textual transmission and encoding decisions are explained below. To learn about the historical context of <em>Liber Consolationis et Consilii</em>, read <a href="history.html">here.</a></p>
-            </div>
-            <!--credits card-->
-            <div class="col-4">
-                <div class="card bg-light mb-3" style="max-width:21rem" id="credits">
-                <div class="card-header">Student Contributors</div>
-                    <div class="card-body">
-                        <p class="card-text">Current Undergraduate Editor and Translator: Margaret Alexander, Class of 2024</p>
-                        <p class="card-text">Logo, web design and initial coding by Nayongi Borthwick, Class of 2023</p>
+                <div class="acknowledge">
+                    <div class="row pb-1">
+                        <div class="col"><strong>Contributors</strong></div>
+                    </div>
+                    <div class="row pb-1">
+                        <div class="col-3" id="contribution"><p>Margaret Alexander, Class of 2024</p></div>
+                        <div class="col-6">Current undergraduate editor and translator, TEI, early CETEIcean implementation, research on textual criticism and manuscript transmission, source verification, systematized notes, and text interactivity.</div>
+                    </div>
+                    <div class="row pt-2 pb-1">
+                        <div class="col-3" id="contribution"><p>Nayongi Borthwick, Class of 2023</p></div>
+                        <div class="col-6"><p>Site logo, web design, and source verification.</p></div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-8">
-                <h2 id="1"><a href="#1" class="redfleuron"><span style="color:#914631"></span>&#10087;</a></span> Evolution of the Text</h2>
+                <h2 class="about pt-3" id="1"><a href="#1" class="redfleuron"><span style="color:#914631"></span>&#10087;</a></span> Evolution of the Text</h2>
                 <h3 id="1.1"><a href="#1.1" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> From Manuscripts to Critical Edition</h3>
                 <p>While <em>Liber Consolationis et Consilii</em> was originally published in 1246, the core Latin text on this site is from Thor Sundby's 1873 critical print edition, published by The Chaucer Society in London. It has since been digitized by <a href="https://www.google.com/books/edition/Albertani_Brixiensis_Liber_consolationis/OFgJAAAAQAAJ?hl=en&gbpv=0" target="_blank">Google Books</a>. Sundby’s critical edition is the product of 15 collated manuscripts. To get a better idea of what Sundby was working with, here are the first pages from two manuscripts, designated by Sundby as A and A2, respectively.</p>
             </div>
+            <div class="col-4">
+                <figure>
+                    <img src="images/albertanocoded.png" style="max-width: 350px; height: auto; ">
+                    <figcaption class="caption" style="width: 350px">Encoding a text is a complex, multi-step process. Unlike the calligraphy of a manuscript, the detail and artistry lies beneath the surface.</figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="d-flex justify-content-evenly">
+        <div class="d-flex justify-content-evenly py-3">
 
                 <figure>
                     <a href="https://opac.kbr.be/LIBRARY/doc/SYRACUSE/10748126" target="_blank">
@@ -99,18 +103,23 @@
         </div>
         <div class="row">
             <div class="col-8">
-                <p>While raw manuscripts are not the primary focus of this project, one should note the lack of marginalia in the manuscripts. Sundby’s most remarkable contribution—aside from laboriously noting textual variants—was verifying over 500 external referrences that would not have been present in the manuscripts. Within the text itself, Albertano usually introduces a quote with the attributed author and occasionally the title of the work, though this is less common. However, many quotations are attributed passively: <em>consuevit dici</em>—translated as it is accustomed to be said. Even when an author and title are explicitly named, Albertano never includes numerical identifiers (chapter, verse, line numbers, etc.). Here is the first page of Sundby’s text. Notice that in the margin, he provides a specific reference to Ovid’s <em>Remedia Amoris</em>.
-                <img src="images/Sundby.png" style="max-width: 450px; width: auto; ">
-                <p>The foot of the page is set aside for the critical apparatus. Here is a breakdown of the textual components with their respective formatting.</p>
-                <img src="images/SundbyAnalyzed.png" style="max-width: 700px; width: auto; ">
+                <p>While raw manuscripts are not the primary focus of this project, one should note the lack of marginalia in the manuscripts. Sundby’s most remarkable contribution—aside from laboriously noting textual variants—was verifying over 500 external referrences that would not have been present in the manuscripts. Within the text itself, Albertano usually introduces a quote with the attributed author and occasionally the title of the work, though this is less common. However, many quotations are attributed passively: <em>consuevit dici</em>—translated as it is accustomed to be said. Even when an author and title are explicitly named, Albertano never includes numerical identifiers (chapters, verses, line numbers, etc.). Here is the first page of Sundby’s text.</p>
+                <img class="pt-2 pb-4" src="images/sundby.png" style="max-width: 450px; width: auto; ">
+                <p>Notice that in the margin Sundby provides a specific reference to Ovid’s <em>Remedia Amoris</em> (the portion highlighted red). The foot of the page is set aside for the critical apparatus. The following is a breakdown of each textual component with its respective formatting. Some of these formatting choices are less common today, such as increasing the kerning of a name.</p>
+                <img class="pt-2 pb-1" src="images/SundbyAnalyzed.png" style="max-width: 700px; width: auto; ">
+            </div>
         </div>
         <div class="row">
             <div class="col-8">
                 <h3 id="1.2"><a href="#1.2" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> From Critical Edition to Digital Transcription</h3>
                 <p>In 2000, scholar Angus Graham digitally transcribed Sundby's text into a <a href="https://web.archive.org/web/20040110051313/http://freespace.virgin.net/angus.graham/Albertano.htm" target="_blank">Word document</a>. Graham changed Sundby’s marginal notes to footnotes, indicated by superscripted numbers. He also added around twenty notes on sources that Sundby had not included. He marked these contributions in red text.</p>
+            </div>
+            <div class="col-8 py-3">
                 <img src="images/Graham1.png" style="max-width: 350px; height: auto; ">
-                <img src="images/Graham2.png" style="max-width: 350px; height: auto; ">
-                <p> However, he silently updated Sundby’s notes to reflect modern standards. For example, “Ovid. <em>De Remed. Amoris</em> L. I, v. 127-30.” became “Ovid, <em>Remedia Amoris</em>, 127-130.” This example is a less drastic change than others since lines of poetry are more concrete numbering systems than classical prose.</p>
+                <img src="images/Graham2.png" style="max-width: 350px; height: 495.41px; ">
+            </div>
+            <div class="col-8 py-3">
+                <p> However, he silently updated Sundby’s notes to reflect modern standards. For example, “Ovid. <em>De Remed. Amoris</em> L. I, v. 127-30.” became “Ovid, <em>Remedia Amoris</em>, 127-130.” This example is a less drastic change than others since lines of poetry are more concrete numbering systems than those used for classical prose.</p>
                 <h4><strong>Transcription Errors</strong></h4>
                 <p>As expected, Graham made human errors when transcribing Sundby’s text. The 44 identified errors can be characterized in one of the following ways:</p>
                     <ol>
@@ -139,18 +148,29 @@
                             </p>
                         </li>
                     </ol>
+                <p>Though these discrepancies are usually clear, corrections to Graham's transcription have been marked within the TEI.</p>
             </div>
         </div>
 <!--Creating a digital critical edition-->
         <div class="row">
+            <h2 class="about" id="2"><a href="#2" class="redfleuron"><span style="color:#914631"></span>&#10087;</a></span> Creating a Digital Critical Edition</h2>
+            <h3 id="2.1"><a href="#2.1" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> The Nature of the Text</h3>
+        </div>
+        <div class="row">
             <div class="col-8">
-                <h2 id="2"><a href="#2" class="redfleuron"><span style="color:#914631"></span>&#10087;</a></span> Creating a Digital Critical Edition</h2>
-                <h3 id="2.1"><a href="#2.1" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> The Nature of the Text</h3>
                 <p>At its surface, <em>Liber Consolationis et Consilii</em> is less of a story than a moral dialogue. The majority of the text is speech between characters with minimal third-person narrative describing the characters’ actions. The plot is rather simple: Life-long enemies of Melibeus beat up his wife and daughter, he counsels many individuals, and chooses not to pursue vendetta. The dialogue contained therein, however, is dense, complex, and perhaps contradictory.</p>
                 <p>Text analysis by Voyant reveals that aside from common prepositions and conjunctions, <em>dixit</em> (translated as he/she/it said) is the most frequently occuring word, with 190 occurences. This excludes conjugated variants <em>dixi</em> (22), <em>dixisti</em> (14), <em>dixerunt</em> (7), <em>dixero</em> (2), <em>dixerim</em> (2), <em>dixisse</em> (1), <em>dixeris</em> (1), and <em>dixerat</em> (1). The defective <em>ait</em> (he/she/it says) occurs 116 times. Verbs from the present tense stem <em>dic-</em> are as follows: <em>dicitur</em> (24), <em>dici</em> (23), <em>dicit</em> (18), <em>dicere</em> (13), <em>dicens</em> (10), <em>dicunt</em> (9), <em>dico</em> (6). The passive participles <em>dictum</em> and <em>dicta</em> occur 21 times combined.</p>
                 <p>In summary, there are at least 527 words related to saying/speaking. Even more importantly are the quotes that follow. Like other medieval works, <em>Liber Consolationis et Consilii</em> draws upon the sayings of numerous classical authors including Cicero, Seneca, Ovid, and Horace. However, unlike other medieval moralists, Albertano does not exclusively quote the ancients but also the Bible and early Christian writers (Sundby, 1873). Having a clear understanding of how Albertano intertwines biblical and classical authorities (especially based on topic) could give us insight about continuity and/or discontinuity of justice between the classical era and middle ages. That of course, is only one example.</p>
                 <p>Below is a visual representation of how often characters quote other sources. Portions of Prudentia's dialogue from chapter 2 are highlighted in different colors according to source types: Old Testament (dark green), the New Testament (light green), and classical sources (blue). Here, the quotes roughly make up 46% of her speech.</p>
                 <img src="images/prudentiaDixit.png" style="max-width: 700px; height:auto ">
+            </div>
+            <div class="col-4">
+                <figure>
+                    <a href="https://chaucereditions.wordpress.com/1880s/1884-chaucers-stories-simnply-told/" target="_blank">
+                        <img src="images/Prudence1884.png" style="max-width: 350px; height: auto; ">
+                        <figcaption style="width: 350px" class="caption">Prudence counsels Melibeus. Seymour, Mary.  Chaucer’s Stories Simply Told.  Illustrated by E. M. Scannell.  London:  T. Nelson and Sons, 1884.</figcaption>
+                    </a>
+                </figure>   
             </div>
         </div>
         <div class="row">
@@ -173,11 +193,16 @@
                     </ul>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+            <h3 id="2.4"><a href="#2.4" class="bluefleuron"><span style="color:#314175">&#10087;</span></a> Displaying TEI with CETEIcean</h3>
+            </div>
+        </div>
 
 <!--Translation-->
         <div class="row">
             <div class="col-8">
-                <h2 id="3"><a href="#3" class="redfleuron"><span style="color:#914631"></span>&#10087;</a></span> Creating a Translation</h2>
+                <h2 class="about" id="3"><a href="#3" class="redfleuron"><span style="color:#914631"></span>&#10087;</a></span> Creating a Translation</h2>
                 <h3 id="3.1"><a href="#3.1" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> What English translations were consulted in the translation process?</h3>
                 <p>For biblical references, we initially consulted the New Revised Standard Version Updated Edition (NRSVUE), but ran into trouble when verses from Ecclesiasticus (The Book of Sirach) which Albertano cited were nonexistent in that translation (the Greek and Latin manuscripts differ greatly). 
                     We switched to the Douay-Rheims Catholic Bible for consistency. However, we are in the process of creating a feature with comparative NRSV referrences.</p>
@@ -254,7 +279,7 @@
 
 
                 
-                <h2>Questions?</h2>
+                <h2 class="about">Questions?</h2>
                 <p>If you would like to request more information or report errors, please contact Margaret Alexander by emailing alexanderm24@mail.wlu.edu</p>
             </div>
         </div>
