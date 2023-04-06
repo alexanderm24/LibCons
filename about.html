@@ -34,10 +34,10 @@
           </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="index.html">Home</a>
-            <a class="dropdown-item" href="directory.html">Text</a>
-            <a class="dropdown-item" href="data.html">Data</a>
-            <a class="dropdown-item" href="history.html">History</a>
             <a class="dropdown-item" href="about.html">About</a>
+            <a class="dropdown-item" href="directory.html">Text</a>
+            <a class="dropdown-item" href="extref.html">External References</a>
+            <a class="dropdown-item" href="history.html">Historical Context</a>
           </div>
         </div>
         <!--search TBD-->
@@ -116,10 +116,10 @@
             </div>
             <div class="col-8 py-3">
                 <img src="images/1Graham.png" style="max-width: 350px; height: auto; ">
-                <img src="images/2Graham.png" style="max-width: 350px; height: 495.41px; ">
+                <img src="images/2Graham.png" style="width: 350px; height: 495.41px; ">
             </div>
             <div class="col-8 py-3">
-                <p> However, he silently updated Sundby’s notes to reflect modern standards. For example, “Ovid. <em>De Remed. Amoris</em> L. I, v. 127-30.” became “Ovid, <em>Remedia Amoris</em>, 127-130.” This example is a less drastic change than others since lines of poetry are more concrete numbering systems than those used for classical prose.</p>
+                <p> However, he silently updated Sundby’s notes to reflect modern standards. For example, “Ovid. <em>De Remed. Amoris</em> L. I, v. 127-30.” became “Ovid, <em>Remedia Amoris</em>, 127-130.” This example is a less drastic change than others because numbered verse tends to remain consistent over long periods of time in comparison to the numbering systems of prose.</p>
                 <h4><strong>Transcription Errors</strong></h4>
                 <p>As expected, Graham made human errors when transcribing Sundby’s text. The 44 identified errors can be characterized in one of the following ways:</p>
                     <ol>
@@ -160,11 +160,11 @@
             <div class="col-8">
                 <p>At its surface, <em>Liber Consolationis et Consilii</em> is less of a story than a moral dialogue. The majority of the text is speech between characters with minimal third-person narrative describing the characters’ actions. The plot is rather simple: Life-long enemies of Melibeus beat up his wife and daughter, he counsels many individuals, and chooses not to pursue vendetta. The dialogue contained therein, however, is dense, complex, and perhaps contradictory.</p>
                 <p>Text analysis by Voyant reveals that aside from common prepositions and conjunctions, <em>dixit</em> (translated as he/she/it said) is the most frequently occuring word, with 190 occurences. This excludes conjugated variants <em>dixi</em> (22), <em>dixisti</em> (14), <em>dixerunt</em> (7), <em>dixero</em> (2), <em>dixerim</em> (2), <em>dixisse</em> (1), <em>dixeris</em> (1), and <em>dixerat</em> (1). The defective <em>ait</em> (he/she/it says) occurs 116 times. Verbs from the present tense stem <em>dic-</em> are as follows: <em>dicitur</em> (24), <em>dici</em> (23), <em>dicit</em> (18), <em>dicere</em> (13), <em>dicens</em> (10), <em>dicunt</em> (9), <em>dico</em> (6). The passive participles <em>dictum</em> and <em>dicta</em> occur 21 times combined.</p>
-                <p>In summary, there are at least 527 words related to saying/speaking. Even more importantly are the quotes that follow. Like other medieval works, <em>Liber Consolationis et Consilii</em> draws upon the sayings of numerous classical authors including Cicero, Seneca, Ovid, and Horace. However, unlike other medieval moralists, Albertano does not exclusively quote the ancients but also the Bible and early Christian writers (Sundby, 1873). Having a clear understanding of how Albertano intertwines biblical and classical authorities (especially based on topic) could give us insight about continuity and/or discontinuity of justice between the classical era and middle ages. That of course, is only one example.</p>
+                <p>In summary, there are at least 527 words that introduce speech, whether direct exchanges between characters or quoted external references. Like other medieval works, <em>Liber Consolationis et Consilii</em> draws upon the sayings of numerous classical authors including Cicero, Seneca, Ovid, and Horace. However, unlike other medieval moralists, Albertano does not exclusively quote the ancients but also the Bible and early Christian writers (Sundby, 1873). Having a clear understanding of how Albertano intertwines biblical and classical authorities (especially based on topic) could give us insight about continuity and/or discontinuity of justice between the classical era and middle ages. That of course, is only one example.</p>
                 <p>Below is a visual representation of how often characters quote other sources. Portions of Prudentia's dialogue from chapter 2 are highlighted in different colors according to source types: Old Testament (dark green), the New Testament (light green), and classical sources (blue). Here, the quotes roughly make up 46% of her speech.</p>
                 <img src="images/prudentiaDixit.png" style="max-width: 700px; height:auto ">
             </div>
-            <div class="col-4">
+            <div class="col-4 mb-2">
                 <figure>
                     <a href="https://chaucereditions.wordpress.com/1880s/1884-chaucers-stories-simnply-told/" target="_blank">
                         <img src="images/Prudence1884.png" style="max-width: 350px; height: auto; ">
@@ -175,102 +175,71 @@
         </div>
         <div class="row">
             <div class="col-8">
-                <h3 id="2.2"><a href="#2.2" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> Digital Edition Formatting Decisions</h3>
-                <p>After establishing the importance of quotes and identifying their sources, we can more easily explain the encoding and display decisions</p>
-                <p>When hovering over a quote, it will be highlighted.</p>
-                <img src="images/caputhover.png" style="max-width: 700px; height: auto ">
-                <p>When clicking on a quote, the corresponding quote of the other language will highlight with the note appearing in the center of the page.</p>
-                <img src="images/shownote.png" style="max-width: 700px; height: auto ">
+                <h3 id="2.2" class="mt-4"><a href="#2.2" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> Digital Edition Formatting Decisions</h3>
+                <p>After establishing the importance of quotes and identifying their sources, we can more easily explain the encoding and display decisions.</p>
+                <h4><strong>Tags related to speech</strong></h4>
+                        <ul id="bulleted">
+                            <li>The said tag indicates direct speech between characters. The who attribute distinguishes between Melibeus (#melib), Prudentia (#prud), and any other speaker (#other).</li>
+                            <li>The quote tag introduces external material cited by the characters.
+                                <ul id="bulleted">
+                                    <li>The type attribute indicates the broad category of the quote: classical, biblicalOt (biblical, Old Testament), biblicalNt (biblical, New Testament), churchFa (Father of the Church), lawMed (medieval law), scMed (medieval school text), and contMed (contemporary medieval). To read more about these distinctions, visit the <a href="extref.html">External References</a> page.</li>
+                                    <li>The source attribute includes a URL when the consulted source is published online and another identifier in the format of #author-work_title to link it to its appropriate note.</li>
+                                    <li>The quote tag also includes a class id to link the quote to its English equivalent (there are two separate xml files for the Latin and English translation.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                <p>Consider the following example:</p>
+                <img src="images/TEIquote.png" style="max-width: 850px; height: auto ">
+                <p class="mt-3">Here, the speaker is Prudentia (#prud). She is quoting Ovid's <em>Remedia Amoris</em>, indicated by #ovid-remedies_love and can be found on Loeb at the provided URL. Note that this is only meta information and not displayed in the actual text. The pop-up note decisions are explained next.</p>
+                <h4><strong>The Problem of the "Footnote"</strong></h4>
+                <p>In this project, we encountered difficulty with the semantics of a "note." TEI allows for much flexibility, but the goal should be to encode as closely to the source as possible. 
+                    We aren't simply putting Sundby's edition online because (1) we are adding to and correcting his scholarship, and (2) TEI encoding allows us to display the text in a creative and user-friendly way that can help us better understand the text.
+                    With this in mind, we had difficulty figuring out how to name, encode, and display notes.</p>
+                <p>Originally, these notes were wrapped within a cit tag with their paired quotes as shown below:</p>
+                <img src="images/initialTEI.png" style="max-width: 600px; height: auto ">
+                <p class="mt-3">Because note tags are free floating within a text, we wanted to use this method to show that the entire quote corresponded to a note, rather than just the preceding word, as would be the case for translation and commentary notes.
+                    However, we decided against this method because it implies that the bibliographic entry is part of the core text. It is not. 
+                    Instead, we used the note tag to clarify external references. These "source notes" are linked to their respective quotes by using an id found within the source attribute of the quote (in this case, #ovid-remedies_love):</p>
+                <img src="images/editTEI.png" style="max-width: 850px; height: auto ">
+                <p>The resp attribute identifies the individual responsible for the note. In this case, it is #TS, Thor Sundby. The n attribute is consistent with Graham's footnote number, though superscripted numbers are not displayed for reasons explained below.</p>
             </div>
-        </div>
+        </div>     
         <div class="row">
             <div class="col-8">
+            <h3 id="2.4"><a href="#2.4" class="bluefleuron"><span style="color:#314175">&#10087;</span></a> Displaying TEI with CETEIcean</h3>
+            <p>Using <a href="https://github.com/TEIC/CETEIcean" target="_blank">CETEIcean</a>, a Javascript library, we can display TEI in a web browser. CETEIcean loads the TEI file dynamically and renames the elements to follow Custom Elements. 
+                This allows us to style elements according to how the text functions semantically rather than simply applying style without a stated reason.</p>
+            <p>For example, we can mark up the CETEIcean CSS to italicize all biblical quotes rather than italicizing each individual biblical quote.</p>
+            <h4><strong>Note Hover and Display</strong></h4>
+            <p>We have already established that these 557 quotes make up the majority of the text. They are already easily indentifiable by italicization for biblical quotes or single quotation marks for any other quote.
+                For this reason, we did not think it necessary to place superscripted characters by a quote.</p>
+            <p>When hovering over a quote, it will be highlighted.</p>
+            <img src="images/caputhover.png" style="max-width: 700px; height: auto ">
+            <p>When clicking on a quote, the corresponding quote of the other language will highlight with the note appearing in the center of the page. This will help readers understand how we translated a particular quote.</p>
+            <img src="images/shownote.png" style="max-width: 700px; height: auto ">
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-8">
             <h3 id="2.3"><a href="#2.3" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> What modifications have been made to Sundby's text?</h3>
-                    <ul>
+                    <ul id="bulleted">
                         <li>Line numbers no longer exist.</li>
                         <li>Each paragraph in the text is numbered according to its respective chapter with the dot as a separation marker. For example, 1.3 identifies the third paragraph of the first chapter.</li>
                         <li>Dipthongs have been removed. For example, <em>cœpi</em> now reads as <em>coepi</em>.</li>
                     </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-            <h3 id="2.4"><a href="#2.4" class="bluefleuron"><span style="color:#314175">&#10087;</span></a> Displaying TEI with CETEIcean</h3>
-            </div>
-        </div>
+
 
 <!--Translation-->
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-8">
                 <h2 class="about" id="3"><a href="#3" class="redfleuron"><span style="color:#914631"></span>&#10087;</a></span> Creating a Translation</h2>
                 <h3 id="3.1"><a href="#3.1" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> What English translations were consulted in the translation process?</h3>
                 <p>For biblical references, we initially consulted the New Revised Standard Version Updated Edition (NRSVUE), but ran into trouble when verses from Ecclesiasticus (The Book of Sirach) which Albertano cited were nonexistent in that translation (the Greek and Latin manuscripts differ greatly). 
                     We switched to the Douay-Rheims Catholic Bible for consistency. However, we are in the process of creating a feature with comparative NRSV referrences.</p>
                 <p>For classical references, we consulted <a href="https://www.loebclassics.com/" target="_blank">Loeb Classical Library.</a></p>
-                <h3 id="3.2"><a href="#3.2" class="bluefleuron"><span style="color:#314175"></span>&#10087;</a></span> Current Source List</h3>
-                <ul>
-                    <li>Actus Silvestri.</li>
-                    <li>Albertano, <em>De Amore</em>.</li>
-                    <li>Alcuin, <em>De Rhetorica</em>.</li>
-                    <li>Andreas Capellanus, <em>De Amore</em>.</li>
-                    <li>Authenticae, <em>Corpus Juris Civilis</em>.</li>
-                    <li>Baldo, <em>Novus Esopus</em>.</li>
-                    <li>Bernard of Clairvaux, <em>Carmen Paraeneticum ad Rainaldum</em>.</li>
-                    <li>Boethius, <em>De Consolatione</em>.</li>
-                    <li>Boncompagno da Segna, <em>Rhetorica Novissima</em>.</li>
-                    <li>Bracton.</li>
-                    <li>Cassiodorus, <em>Variae</em>.</li>
-                    <li>Cato, <em>Distichs</em>.</li>
-                    <li>Cato, <em>Monostichs</em>.</li>
-                    <li>Cicero, <em>De Amicitia</em>.</li>
-                    <li>Cicero, <em>De Inventione</em>.</li>
-                    <li>Cicero, <em>De Officiis</em>.</li>
-                    <li>Cicero, <em>De Senectute</em>.</li>
-                    <li>Cicero, <em>In Verrem</em>.</li>
-                    <li>Cicero, <em>Tusculan Disputations</em>.</li>
-                    <li>Codex.</li>
-                    <li>Curtius Rufus, <em>Historia Alexandrum Magnum</em>.</li>
-                    <li><em>Digest</em>.</li>
-                    <li>Faustino of Arevalo, <em>Isidoriana</em>.</li>
-                    <li>Fulgentius, <em>Mitologiarum.</em></li>
-                    <li>Godfrey of Winchester, <em>Epigrammata</em>.</li>
-                    <li>Gratian, <em>Decretals</em>.</li>
-                    <li>Gregory IX, <em>Decretals</em>.</li>
-                    <li>Horace, <em>Epistulae ad Pisones</em>.</li>
-                    <li>Hugh of Saint Victor, <em>Didascalicon</em>.</li>
-                    <li>Innocent III, <em>De Contemptu Mundi</em>.</li>
-                    <li>Innocent IV, <em>Apparatus in quinque libros decretalium</em>.</li>
-                    <li>Junstinian, <em>Institutes</em>.</li>
-                    <li>Lucan, <em>Pharsalia</em>.</li>
-                    <li>Marbodo of Rennes, <em>Carmina Varia</em>.</li>
-                    <li>Martin of Braga, <em>Formula Honestae Vitae</em>.</li>
-                    <li>Ovid, <em>Amores</em>.</li>
-                    <li>Ovid, <em>Heroïdes</em>.</li>
-                    <li>Ovid, <em>Remedia Amoris</em>.</li>
-                    <li><em>Pamphilus de Amore</em>.</li>
-                    <li>Peter Alfonsi, <em>Dialogus</em>.</li>
-                    <li>Peter Alfonsi, <em>Disciplina Clericalis</em>.</li>
-                    <li>Prosper of Aquitane, <em>Sententiae</em>.</li>
-                    <li>Prudentius, <em>Psychomachia</em>.</li>
-                    <li>Pseudo-Bede, <em>Proverbia</em>.</li>
-                    <li>Pseudo-Caecilius Balbus, <em>De Nugis</em>.</li>
-                    <li>Pseudo-Martin of Braga, <em>De Moribus</em>.</li>
-                    <li>Pseudo-Seneca, <em>De Moribus</em>.</li>
-                    <li>Pseudo-Seneca, <em>Proverbia</em>.</li>
-                    <li>[Pseudo-] William of Conches, <em>Moralium Dogma Philosophorum</em>.</li>
-                    <li>Publilius Syrus, <em>Sententiae</em>.</li>
-                    <li>Sallust, <em>Bellum Catiliniarum</em>.</li>
-                    <li>Sallust, <em>Bellum Jugurthinum</em>.</li>
-                    <li>Seneca Maior, <em>Controversiis</em>.</li>
-                    <li>Seneca, <em>Ad Lucilium Epistulae Morales</em>.</li>
-                    <li>Seneca, <em>De Beneficiis</em>.</li>
-                    <li>Seneca, <em>De Clementia</em>.</li>
-                    <li>Seneca, <em>De Ira</em>.</li>
-                    <li>Seneca, <em>Epistula ad Alexandrum Magnum</em>.</li>
-                    <li>Vegetius, <em>Epitoma Rei Militaris</em>.</li>
-                    <li>Walter of England, <em>Aesop</em>.</li>
-                    <li>Walther, <em>Proverbia</em>.</li>
-                </ul>
             </div>
         </div>
 

@@ -70,6 +70,17 @@ a:link{
   position: sticky;
 }
 
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#bulleted {
+  list-style-type: disc;
+  margin-left: 2em;
+}
+
 #langnav {
   font-size: 1.25rem;
   background-color: white;
@@ -136,12 +147,6 @@ blockquote {
   line-height: normal;
 }
 
-ul {
-  list-style-type: none;
-  margin-bottom: 0;
-  padding: 0;
-}
-
 /*fleuron about page*/
 a[class|="bluefleuron"] {
   text-decoration: none;
@@ -152,11 +157,6 @@ a[class|="redfleuron"] {
   color:#914631;
   text-indent: 10px;
 }
-
-/*indent about page*/
-li .indent {
-  list-style-position: inside;
-  }
 
 /*popover*/
 .popover {
