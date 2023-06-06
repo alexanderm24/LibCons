@@ -123,6 +123,9 @@ tei-titlestmt > tei-author {
   display: block;
   margin-bottom: 1em;
 }
+tei-author {
+  letter-spacing: .1rem;
+}
 tei-publicationstmt > tei-availability {
   font-size: 80%;
 }
@@ -345,6 +348,7 @@ tei-head {
   display: block;
   font-family: 'junicode-expanded';
   font-weight: normal;
+  
 }
 /*hides redundant chapter number heading*/
 tei-head[id=chapter-number] {
@@ -565,8 +569,11 @@ tei-musicNotation:before {
   content: "Musical Notation: ";
 }
 /* n */
-tei-name {
+tei-name[type|="character-narrative"] {
   letter-spacing: .1rem;
+}
+tei-name[type|="character-dialogue"] {
+  font-variant: small-caps;
 }
 tei-node {
   display: none;
@@ -606,6 +613,9 @@ tei-p {
   text-align: justify;
 }
 *[data-tei-rendition~="#center"] p {
+  text-align: center;
+}
+tei-p[type|="chapter-break"]{
   text-align: center;
 }
 tei-availability > p:first-child {
@@ -691,10 +701,10 @@ tei-quote[type|="biblicalOt"]:hover {
 
 /*churchFa*/
 tei-quote[type|="churchFa"]:before{
-  content:none;
+  content:"‘";
 }
 tei-quote[type|="churchFa"]:after{
-  content:none;
+  content:"’";
 }
 tei-quote[type|="churchFa"]:hover{
   background-color: #FFF9A6;
@@ -702,11 +712,19 @@ tei-quote[type|="churchFa"]:hover{
 
 /*classical*/
 tei-quote[type|="classical"]:before{
-  content:none;
+  content:"‘";
 }
 tei-quote[type|="classical"]:after{
+  content:"’";
+}
+/*Exclude rend=blockquote*/
+tei-quote[rend|="blockquote"]:before{
   content:none;
 }
+tei-quote[rend|="blockquote"]:after{
+  content:none;
+}
+/*hover-highlight*/
 tei-quote[type|="classical"]:hover{
   background-color: #FFF9A6;
 }
@@ -717,29 +735,44 @@ tei-quote[type|="classical"] > tei-div:hover{
 /*medieval*/
 /*contMed*/
 tei-quote[type|="contMed"]:before{
-  content:none;
+  content:"‘";
 }
 tei-quote[type|="contMed"]:after{
+  content:"’";
+}
+/*Exclude rend=blockquote*/
+tei-quote[rend|="blockquote"]:before{
   content:none;
 }
+tei-quote[rend|="blockquote"]:after{
+  content:none;
+}
+/*hover-highlight*/
 tei-quote[type|="contMed"]:hover{
   background-color: #FFF9A6;
 }
 /*lawMed*/
 tei-quote[type|="lawMed"]:before{
-  content:none;
+  content:"‘";
 }
 tei-quote[type|="lawMed"]:after{
-  content:none;
+  content:"’";
 }
 tei-quote[type|="lawMed"]:hover{
   background-color: #FFF9A6;
 }
 /*scMed*/
 tei-quote[type|="scMed"]:before{
-  content:none;
+  content:"‘";
 }
 tei-quote[type|="scMed"]:after{
+  content:"’";
+}
+/*Exclude rend=blockquote*/
+tei-quote[rend|="blockquote"]:before{
+  content:none;
+}
+tei-quote[rend|="blockquote"]:after{
   content:none;
 }
 tei-quote[type|="scMed"]:hover{
