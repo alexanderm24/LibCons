@@ -1,4 +1,3 @@
-
 var CETEIcean = new CETEI();
 CETEIcean.getHTML5("data/liber.xml", function (data) {
 
@@ -43,6 +42,7 @@ const chapter = document.getElementById("caput-1");
   }
 });
 
+
 var CETEIcean = new CETEI();
 CETEIcean.getHTML5("data/book.xml", function (data) {
 
@@ -86,3 +86,5 @@ const chapter = document.getElementById("chapter-2");
     }
   }
 });
+
+

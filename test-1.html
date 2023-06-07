@@ -19,6 +19,7 @@
     <!--JS stuff-->
     <script src="js/CETEI.js"></script>
     <script src="js/liber.js"></script>
+    <script src="js/highlightClass.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
@@ -97,22 +98,9 @@
           document.getElementById("TEI").appendChild(data);
           })
           </script>
-
-          <script>
-          var CETEIcean = new CETEI();
-          CETEIcean.getHTML5("data/liber.xml", function(data) {
-          document.getElementById("TEI").appendChild(data);
-          })
-          </script>
-
-        <script>
-          var CETEIcean = new CETEI()
-          CETEIcean.getHTML5("data/liber.xml", function(data) {
-          document.getElementById("n001").style.width = "300px";
-          })
-        </script>
-  
         </div>
+
+
         <!--Column for English-->
         <div class="col-6" id="English">
           <div id="chapter-1"></div>
