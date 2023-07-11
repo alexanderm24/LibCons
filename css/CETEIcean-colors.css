@@ -358,7 +358,7 @@ tei-head {
 }
 /*hides redundant chapter number heading*/
 tei-head[id=chapter-number] {
-  display: none;
+  display: show;
   font-family: 'junicode-expanded';
   font-weight: normal;
 }
