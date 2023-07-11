@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    font-family: 'junicode-expanded';
+    font-size: 1.125rem;
+    color:#3A3B3C;
+}
+
+#lawMed {
+    color: #9e533e;
+}
+
+
+@font-face {
+    font-family:"junicode expanded";
+    src: url("./font/JunicodeTwoBeta-Medium.tff") format("truetype"),
+      url("./font/JuniusX-Regular.woff2") format("woff2");
+  }
+  

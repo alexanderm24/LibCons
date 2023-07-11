@@ -693,19 +693,24 @@ tei-q[data-tei-prev]:before {
 /*biblical*/
 tei-quote[type|="biblicalNt"]{
   font-style: italic;
+  color: #7ca054;
 }
 tei-quote[type|="biblicalNt"]:hover{
-  background-color: #FFF9A6;
+  background-color: #242526;
 }
 
 tei-quote[type|="biblicalOt"]{
   font-style: italic;
+  color: #557531;
 }
 tei-quote[type|="biblicalOt"]:hover {
-  background-color: #FFF9A6;
+  background-color: #242526;
 }
 
 /*churchFa*/
+tei-quote[type|="churchFa"]{
+    color: #b98350;
+  }
 tei-quote[type|="churchFa"]:before{
   content:"‘";
 }
@@ -713,10 +718,13 @@ tei-quote[type|="churchFa"]:after{
   content:"’";
 }
 tei-quote[type|="churchFa"]:hover{
-  background-color: #FFF9A6;
+  background-color: #242526;
 }
 
 /*classical*/
+tei-quote[type|="classical"]{
+    color: #314175;
+  }
 tei-quote[type|="classical"]:before{
   content:"‘";
 }
@@ -732,14 +740,17 @@ tei-quote[rend|="blockquote"]:after{
 }
 /*hover-highlight*/
 tei-quote[type|="classical"]:hover{
-  background-color: #FFF9A6;
+  background-color: #242526;
 }
 tei-quote[type|="classical"] > tei-div:hover{
-  background-color: #FFF9A6;
+  background-color: #242526;
 }
 
 /*medieval*/
 /*contMed*/
+tei-quote[type|="contMed"]{
+    color: #914631;
+  }
 tei-quote[type|="contMed"]:before{
   content:"‘";
 }
@@ -755,9 +766,12 @@ tei-quote[rend|="blockquote"]:after{
 }
 /*hover-highlight*/
 tei-quote[type|="contMed"]:hover{
-  background-color: #FFF9A6;
+  background-color: #242526;
 }
 /*lawMed*/
+tei-quote[type|="lawMed"]{
+    color: #9e533e;
+}
 tei-quote[type|="lawMed"]:before{
   content:"‘";
 }
@@ -765,9 +779,12 @@ tei-quote[type|="lawMed"]:after{
   content:"’";
 }
 tei-quote[type|="lawMed"]:hover{
-  background-color: #FFF9A6;
+  background-color: #242526;
 }
 /*scMed*/
+tei-quote[type|="scMed"]{
+    color:#AA5F4B;
+}
 tei-quote[type|="scMed"]:before{
   content:"‘";
 }
@@ -782,7 +799,7 @@ tei-quote[rend|="blockquote"]:after{
   content:none;
 }
 tei-quote[type|="scMed"]:hover{
-  background-color: #FFF9A6;
+  background-color: #242526;
 }
 
 /*Blockquote rendering (for verses of poetry as seen in classical and medeival poetry*/

@@ -171,16 +171,6 @@ a[class|="redfleuron"] {
   background-color: #553E36;
 }
 
-#n001 {
-  display: block;
-  position: absolute;
-  font-family: 'junicode';
-  background-color: #FCF5E5;
-  border: 1px solid #553E36;
-}
-
-
-
 /*fleuron note*/
 .margin {
   font-size: 1.5rem;

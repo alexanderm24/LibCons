@@ -239,7 +239,6 @@ var CETEI = (function () {
           notes.appendChild(note);
           return content;
         }],
-        ["_", ["(",")"]]
       ],
       "table": function(elt) {
         let table = document.createElement("table");
