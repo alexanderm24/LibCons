@@ -674,7 +674,7 @@
                     <quote xml:id="q071" type="churchFa">Superavit cuncta infatigabilis et expedita prudentia.</quote>
                     <note xml:id="n071" n="071" resp="#AG">
                       <bibl><author>Cassiodorus</author>, <title>Variae</title>, 
-                      <biblScope unit="book.letter.section" from="2.12.3" to="2.12.3">2.12.3</biblScope>.</bibl>
+                      <biblScope unit="book.letter.section" from="2.15.3" to="2.15.3">2.15.3</biblScope>.</bibl>
                     </note>
                   </said>
                 </p>
@@ -4235,7 +4235,7 @@
                       <bibl><author>Publilius Syrus</author>, <title>Sententiae</title>, 
                       <biblScope unit="line" from="77" to="77">77</biblScope>.</bibl>
                     </note>
-                    <quote xml:id="q539" type="churchFa">is enim vinit assidue, qui novit omnia temperare.</quote>
+                    <quote xml:id="q539" type="churchFa">is enim <corr cert="high" resp="#MA">vincit</corr> assidue, qui novit omnia temperare.</quote>
                     <note xml:id="n539" n="539" resp="#TS">
                       <bibl><author>Cassiodorus</author>, <title>Variae</title>, 
                       <biblScope unit="book.letter.section" from="2.41.2" to="2.41.2">2.41.2</biblScope>.</bibl>
@@ -4491,7 +4491,7 @@
             <link target="#q103 #n103"/>
             <link target="#q104 #n104"/>
             <link target="#q105 #n105"/>
-            <!--Note 106 includes the first content note-->
+            <link target="#q106 #n106"/><!--Note 106 includes the first content note-->
             <link target="#q107 #n107"/>
             <link target="#q108 #n108"/>
             <link target="#q109 #n109"/>
