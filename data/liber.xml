@@ -3632,7 +3632,7 @@
                       <bibl><author>Lucan</author>, <title>Pharsalia</title>, 
                       <biblScope>1.70-71</biblScope>.</bibl>
                     </note>
-                  &#8220;Et <author>Martialis</author> dixit: 
+                  &#8220;Et <author type="misattributed">Martialis</author> dixit: 
                     <quote xml:id="q464" type="contMed" rend="blockquote">
                       <l>Altior ascensus, gravior per summa ruina est.</l>
                     </quote>
