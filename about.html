@@ -60,7 +60,15 @@
                     </div>
                     <div class="row pb-1">
                         <div class="col-3" id="contribution"><p>Margaret Alexander, Class of 2024</p></div>
-                        <div class="col-6">Current undergraduate editor and translator, TEI, early CETEIcean implementation, research on textual criticism and manuscript transmission, source verification, systematized notes, and text interactivity.</div>
+                        <div class="col-6">Undergraduate editor and translator, TEI, early CETEIcean implementation, research on textual criticism and manuscript transmission, source verification, systematized notes, and text interactivity (June 2022&ndash;June 2023).</div>
+                    </div>
+                    <div class="row pt-2 pb-1">
+                        <div class="col-3" id="contribution"><p>Ben Hess, Class of 2023</p></div>
+                        <div class="col-6"><p>Latin to English translator (June 2023).</p></div>
+                    </div>
+                    <div class="row pt-2 pb-1">
+                        <div class="col-3" id="contribution"><p>Andrew Wright, Class of 2025</p></div>
+                        <div class="col-6"><p>Latin to English translator (June 2023).</p></div>
                     </div>
                     <div class="row pt-2 pb-1">
                         <div class="col-3" id="contribution"><p>Nayongi Borthwick, Class of 2023</p></div>
@@ -183,24 +191,26 @@
                             <li>The quote tag introduces external material cited by the characters.
                                 <ul id="bulleted">
                                     <li>The type attribute indicates the broad category of the quote: classical, biblicalOt (biblical, Old Testament), biblicalNt (biblical, New Testament), churchFa (Father of the Church), lawMed (medieval law), scMed (medieval school text), and contMed (contemporary medieval). To read more about these distinctions, visit the <a href="extref.html">External References</a> page.</li>
-                                    <li>The source attribute includes a URL when the consulted source is published online and another identifier in the format of #author-work_title to link it to its appropriate note.</li>
-                                    <li>The quote tag also includes a class id to link the quote to its English equivalent (there are two separate xml files for the Latin and English translation.</li>
+                                    <li>The quote tag also includes an xml:id to link the quote to its corresponding note and English translation (there are two separate xml files for the Latin and English translation).</li>
                                 </ul>
                             </li>
                         </ul>
                 <p>Consider the following example:</p>
-                <img src="images/TEIquote.png" style="max-width: 850px; height: auto ">
-                <p class="mt-3">Here, the speaker is Prudentia (#prud). She is quoting Ovid's <em>Remedia Amoris</em>, indicated by #ovid-remedies_love and can be found on Loeb at the provided URL. Note that this is only meta information and not displayed in the actual text. The pop-up note decisions are explained next.</p>
-                <h4><strong>The Problem of the "Footnote"</strong></h4>
-                <p>In this project, we encountered difficulty with the semantics of a "note." TEI allows for much flexibility, but the goal should be to encode as closely to the source as possible. 
+                <img src="images/TEIquote.png" style="max-width: 600px; height: auto ">
+                <p class="mt-3">Here, the speaker is Prudentia (#prud). She is quoting Ovid's <em>Remedia Amoris</em>. The xml:id is "q001", which is a unique identifier. Note that this is only meta information and not displayed in the actual text. The pop-up note decisions are explained next.</p>
+                <h4><strong>The Problem of the &#8220;Footnote&#8221;</strong></h4>
+                <p>In this project, we encountered difficulty with the semantics of a &#8220;note.&#8221; TEI allows for much flexibility, but the goal should be to encode as closely to the source as possible. 
                     We aren't simply putting Sundby's edition online because (1) we are adding to and correcting his scholarship, and (2) TEI encoding allows us to display the text in a creative and user-friendly way that can help us better understand the text.
                     With this in mind, we had difficulty figuring out how to name, encode, and display notes.</p>
                 <p>Originally, these notes were wrapped within a cit tag with their paired quotes as shown below:</p>
                 <img src="images/initialTEI.png" style="max-width: 600px; height: auto ">
                 <p class="mt-3">Because note tags are free floating within a text, we wanted to use this method to show that the entire quote corresponded to a note, rather than just the preceding word, as would be the case for translation and commentary notes.
                     However, we decided against this method because it implies that the bibliographic entry is part of the core text. It is not. 
-                    Instead, we used the note tag to clarify external references. These "source notes" are linked to their respective quotes by using an id found within the source attribute of the quote (in this case, #ovid-remedies_love):</p>
+                    In our second approach, we used the note tag to clarify external references. These &#8220;source notes&#8221; were linked to their respective quotes by using an id found within the source attribute of the quote (in this case, #ovid-remedies_love):</p>
                 <img src="images/editTEI.png" style="max-width: 850px; height: auto ">
+                <p class="mt-3">Once again, however, we simplified our approach:</p>
+                <img src="images/approach3.png" style="max-width: 650px; height: auto ">
+                <p>Notice that the note attribute has an xml:id similar to that of the quote attribute ("n001" instead of "q001"). Further sourcing and bibliographic information can belong exclusively in the note.
                 <p>The resp attribute identifies the individual responsible for the note. In this case, it is #TS, Thor Sundby. The n attribute is consistent with Graham's footnote number, though superscripted numbers are not displayed for reasons explained below.</p>
             </div>
         </div>     
