@@ -1361,7 +1361,7 @@
                       <biblScope>6.55</biblScope>;<author>Publilius Syrus</author>, <title>Sententiae</title>, <biblScope unit="line" from="734" to="734">734</biblScope>.</bibl>
                     </note>
                   Non ergo consilium dare vel recipere debes subito et festinanter, sed cum deliberatione ac mora competenti; ait enim <author type="misattributed">Seneca</author>, <title>De Formula Honestae Vitae</title>: 
-                    <quote xml:id="q162" type="contMed">Nihil tibi subitum sit, sed totum ante prospicias; nam qui providus est, non dicit <quote type="exeg">non putavi hoc fiere</quote>; quia non dubitat, sed expectat, non suspicatur, sed cavet.</quote>
+                    <quote xml:id="q162" type="contMed">Nihil tibi subitum sit, sed totum ante prospicias; nam qui providus est, non dicit <quote>&#8220;non putavi hoc fiere&#8221;</quote>; quia non dubitat, sed expectat, non suspicatur, sed cavet.</quote>
                     <note xml:id="n162" n="162" resp="#AG">
                       <bibl><author>Martin of Braga</author>, <title>Formula vitae honestae</title>, 
                       <biblScope>2.21-23</biblScope>.</bibl>
